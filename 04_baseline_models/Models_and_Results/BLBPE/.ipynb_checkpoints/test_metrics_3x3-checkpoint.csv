@@ -1,0 +1,7 @@
+,test accuracy,test precision weighted,test recall weighted,test f1 weighted
+RandomForestClassifier,0.388 ± 0.003,0.387 ± 0.003,0.388 ± 0.003,0.339 ± 0.003
+GradientBoostingClassifier,0.434 ± 0.003,0.424 ± 0.003,0.434 ± 0.003,0.416 ± 0.003
+RidgeClassifier,0.402 ± 0.004,0.388 ± 0.004,0.402 ± 0.004,0.361 ± 0.004
+MLPClassifier,0.358 ± 0.021,0.333 ± 0.021,0.358 ± 0.021,0.291 ± 0.021
+LogisticRegression,0.371 ± 0.003,0.367 ± 0.003,0.371 ± 0.003,0.344 ± 0.003
+XGBClassifier,0.439 ± 0.004,0.43 ± 0.004,0.439 ± 0.004,0.418 ± 0.004
