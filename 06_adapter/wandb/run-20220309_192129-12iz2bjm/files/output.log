@@ -1,0 +1,18 @@
+total_optimization_steps: 2215
+how many 'eval_steps' to set: 222
+how many steps in each evaluation stop: 16
+hence in total: 3552 steps for the whole evaluation
+Some weights of the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4 were not used when initializing RobertaModelWithHeads: ['lm_head.dense.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.layer_norm.bias']
+- This IS expected if you are initializing RobertaModelWithHeads from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModelWithHeads from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModelWithHeads were not initialized from the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4 and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+***** Running training *****
+  Num examples = 85000
+  Num Epochs = 5
+  Instantaneous batch size per device = 64
+  Total train batch size (w. parallel, distributed & accumulation) = 192
+  Gradient Accumulation steps = 1
+  Total optimization steps = 2215
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.

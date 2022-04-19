@@ -1,0 +1,348 @@
+total_optimization_steps: 19
+how many 'eval_steps' to set: 2
+how many steps in each evaluation stop: 2
+hence in total: 4 steps for the whole evaluation
+loading configuration file /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_/config.json
+Model config RobertaConfig {
+  "adapters": {
+    "adapters": {},
+    "config_map": {},
+    "fusion_config_map": {},
+    "fusions": {}
+  },
+  "architectures": [
+    "RobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 6,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.11.3",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 5000
+}
+loading weights file /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_/pytorch_model.bin
+Some weights of the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_ were not used when initializing RobertaModelWithHeads: ['lm_head.layer_norm.bias', 'lm_head.dense.bias', 'lm_head.bias', 'lm_head.layer_norm.weight', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaModelWithHeads from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModelWithHeads from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModelWithHeads were not initialized from the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_ and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Adding adapter '3x3_fold_0'.
+Adding head '3x3_fold_0' with config {'head_type': 'classification', 'num_labels': 3, 'layers': 2, 'activation_function': 'tanh', 'label2id': {'exon': 0, 'intergenic': 1, 'intron': 2}, 'use_pooler': False, 'bias': True}.
+PyTorch: setting up devices
+***** Running training *****
+  Num examples = 900
+  Num Epochs = 1
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 48
+  Gradient Accumulation steps = 1
+  Total optimization steps = 19
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+{'eval_runtime': 0.2317, 'eval_samples_per_second': 431.568, 'eval_steps_per_second': 12.947, 'epoch': 1.0}
+1.0893738395289372
+ TrainOutput(global_step=19, training_loss=1.0893738395289372, metrics={'train_runtime': 5.5105, 'train_samples_per_second': 163.325, 'train_steps_per_second': 3.448, 'total_flos': 30523062297600.0, 'train_loss': 1.0893738395289372, 'epoch': 1.0})
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+Saving model checkpoint to 3x3_CV
+Configuration saved in 3x3_CV/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_model_head.bin
+{'input_ids': tensor([[   0,   43,  344,  ...,    1,    1,    1],
+        [   0,   56,  781,  ...,    1,    1,    1],
+        [   0, 4673,  542,  ...,    1,    1,    1],
+        ...,
+        [   0, 3927,  390,  ...,    1,    1,    1],
+        [   0,  360,  640,  ...,    1,    1,    1],
+        [   0, 1543,  392,  ...,    1,    1,    1]]), 'attention_mask': tensor([[1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        ...,
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0]]), 'labels': tensor([2, 1, 2, 2, 2, 0, 2, 2, 0, 1, 2, 2, 0, 0, 1, 2, 0, 2, 0, 1, 2, 0, 0, 0,
+        2, 1, 0, 2, 2, 0, 0, 0, 1, 1, 2, 1, 2, 1, 0, 0, 2, 1, 0, 2, 0, 0, 0, 1])}
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/numpy/core/_asarray.py:83: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order)
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+[ 0.39771605 -0.6142899   0.41411307]
+[-0.01233437  0.02443166  0.2130325 ]
+[ 0.1731879  -0.5791246   0.46758357]
+[ 0.08056894 -0.42963716  0.45509574]
+[-0.01516597 -0.36391205  0.5014126 ]
+[ 0.4731684  -0.3704358  -0.22465411]
+[-0.36905032  0.06950542  0.43404728]
+[ 0.3741291 -0.6340894  0.4115682]
+[ 0.49358657 -0.70940393  0.39104173]
+[-0.35556194  0.5132323   0.18510997]
+[ 0.05905726 -0.34745163  0.41780272]
+[ 0.01725769 -0.32209632  0.52871716]
+[ 0.37311548 -0.63337237  0.4092416 ]
+[ 0.5701717  -0.7301738   0.21721117]
+[-0.19031277 -0.13980828  0.41766265]
+[-0.23199145  0.00774794  0.4546462 ]
+[-0.5036277  0.5035368  0.406675 ]
+[-0.4128935   0.33108506  0.27779683]
+[ 0.10784152 -0.37767646  0.30939943]
+[-1.0205884   0.74012005  0.34805208]
+[-0.06641467 -0.22110023  0.47861284]
+[-0.4180063   0.24241877  0.40670338]
+[ 0.46677563 -0.66320837  0.26903057]
+[ 0.50180537 -0.589716    0.200062  ]
+[-0.3275221   0.08300371  0.450939  ]
+[-0.14806414 -0.14326786  0.31783795]
+[ 0.5502607  -0.62272906  0.06400393]
+[ 0.6759319  -0.9327998   0.39143786]
+[-0.57269627  0.09372339  0.3760041 ]
+[-0.4209643   0.07199984  0.48248023]
+[ 0.5628465  -0.7843576   0.15477659]
+[-0.08795543 -0.19570096  0.5021094 ]
+[-0.58043975  0.10042609  0.40112332]
+[-0.4725456   0.34605634  0.40543246]
+[-0.8949481   0.3665783   0.21592261]
+[-0.04576667 -0.2971161   0.48583695]
+[-0.93408394  0.37661383  0.47380546]
+[ 0.0853135  -0.38955116  0.39261535]
+[ 0.36303008 -0.42922238  0.19034746]
+[ 0.22885396 -0.43127757  0.33557582]
+[-0.73182887  0.43246123  0.402154  ]
+[-0.06105655 -0.1931606   0.49544188]
+[ 0.27096868 -0.462637    0.41470852]
+[-0.54949355  0.24546303  0.30109045]
+[ 0.09992044 -0.46427503  0.3984663 ]
+[ 0.22673921 -0.09178265  0.0954387 ]
+[ 0.86273557 -0.9772963   0.30290073]
+[-0.7508878   0.6463425   0.41232672]
+[-0.6155139   0.6231084   0.09335738]
+[-0.08811809 -0.32254925  0.4680074 ]
+[ 0.2928999  -0.5470609   0.33877763]
+[ 0.41818154 -0.53617245  0.23808049]
+[-0.01676355 -0.41378468  0.49276283]
+[ 0.12907791 -0.48878127  0.4941295 ]
+[ 0.6698818 -0.8284334  0.24722  ]
+[ 0.00877238 -0.31736264  0.4844043 ]
+[ 0.07808644 -0.3343991   0.44507846]
+[ 0.24973087 -0.5786437   0.3746238 ]
+[ 0.18213876 -0.3804875   0.44530898]
+[-0.6649438  0.6143181  0.2747484]
+[-0.5861541   0.14401314  0.46837738]
+[ 0.34274927 -0.7041742   0.46184114]
+[ 0.47572368 -0.68117076  0.3510299 ]
+[ 0.22536065 -0.48883733  0.4344365 ]
+[ 0.22504304 -0.53789085  0.4731584 ]
+[ 0.19170114 -0.49155536  0.4147109 ]
+[-0.52598524  0.5130245   0.3546249 ]
+[-0.35231513  0.10304247  0.40517005]
+[-0.25906926  0.07936271  0.34031045]
+[-0.20408459 -0.1455204   0.397601  ]
+[-0.37291932 -0.00996663  0.41329515]
+[-0.6992252   0.49994433  0.35842708]
+[-0.42007717  0.22419833  0.45394194]
+[-0.21529962 -0.15025601  0.51162875]
+[-0.80068254  0.72447085  0.37928125]
+[ 0.04403083 -0.24656086  0.40125927]
+[ 0.4000086  -0.53520834  0.16067302]
+[-0.6729265  0.352141   0.4036139]
+[-0.06065603 -0.28166676  0.4602916 ]
+[ 0.36841118 -0.49300775  0.13142626]
+[ 0.5986999  -0.6994776   0.11344047]
+[-0.66293436  0.62915593  0.39257273]
+[-0.42620897  0.3035658   0.38812605]
+[ 0.19507496 -0.30777982  0.395033  ]
+[-0.10736664 -0.20469302  0.45608234]
+[ 0.46682674 -0.62594944  0.2216216 ]
+[ 0.21074891 -0.50868523  0.49294406]
+[-0.25443092  0.33813336  0.1925004 ]
+[ 0.3588987  -0.7598433   0.27234617]
+[-0.23521437 -0.00950972  0.37112352]
+[ 0.5194907  -0.69950324  0.3860408 ]
+[ 0.4620516  -0.5763137   0.18180414]
+[-0.66616213  0.7286954   0.3341792 ]
+[-0.01289866 -0.29049638  0.34937444]
+[ 0.21101068 -0.38864765  0.3746154 ]
+[ 0.31046054 -0.64060116  0.44072378]
+[-0.24943762 -0.06813423  0.44004992]
+[-0.21076204 -0.06723867  0.5174696 ]
+[ 0.5203732  -0.7176038   0.34222642]
+[ 0.17051674 -0.5118747   0.44196892]
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+2
+2
+2
+2
+2
+0
+2
+2
+0
+1
+2
+2
+2
+0
+2
+2
+1
+1
+2
+1
+2
+2
+0
+0
+2
+2
+0
+0
+2
+2
+0
+2
+2
+2
+1
+2
+2
+2
+0
+2
+1
+2
+2
+2
+2
+0
+0
+1
+1
+2
+2
+0
+2
+2
+0
+2
+2
+2
+2
+1
+2
+2
+0
+2
+2
+2
+1
+2
+2
+2
+2
+1
+2
+2
+1
+2
+0
+2
+2
+0
+0
+1
+2
+2
+2
+0
+2
+1
+0
+2
+0
+0
+1
+2
+2
+2
+2
+2
+0
+2
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48

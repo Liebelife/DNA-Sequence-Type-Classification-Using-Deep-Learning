@@ -1,0 +1,97 @@
+total_optimization_steps: 188
+how many 'eval_steps' to set: 19
+how many steps in each evaluation stop: 21
+hence in total: 399 steps for the whole evaluation
+Some weights of the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_ were not used when initializing RobertaModelWithHeads: ['lm_head.bias', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight', 'lm_head.dense.bias', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaModelWithHeads from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModelWithHeads from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModelWithHeads were not initialized from the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_ and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+***** Running training *****
+  Num examples = 9000
+  Num Epochs = 1
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 48
+  Gradient Accumulation steps = 1
+  Total optimization steps = 188
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running training *****
+  Num examples = 9000
+  Num Epochs = 1
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 48
+  Gradient Accumulation steps = 1
+  Total optimization steps = 188
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running Evaluation *****
+  Num examples = 1000
+  Batch size = 48
+{'eval_runtime': 2.0308, 'eval_samples_per_second': 492.421, 'eval_steps_per_second': 10.341, 'epoch': 1.0}
+0.8734365828493809
+ TrainOutput(global_step=188, training_loss=0.8734365828493809, metrics={'train_runtime': 49.3057, 'train_samples_per_second': 182.535, 'train_steps_per_second': 3.813, 'total_flos': 305230622976000.0, 'train_loss': 0.8734365828493809, 'epoch': 1.0})
+Saving model checkpoint to 3x3_CV
+Configuration saved in 3x3_CV/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_model_head.bin

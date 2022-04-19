@@ -1,0 +1,62 @@
+total_optimization_steps: 355
+how many 'eval_steps' to set: 36
+how many steps in each evaluation stop: 2
+hence in total: 72 steps for the whole evaluation
+Some weights of the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4 were not used when initializing RobertaModelWithHeads: ['lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.bias']
+- This IS expected if you are initializing RobertaModelWithHeads from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModelWithHeads from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModelWithHeads were not initialized from the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4 and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+***** Running training *****
+  Num examples = 850
+  Num Epochs = 5
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 12
+  Gradient Accumulation steps = 1
+  Total optimization steps = 355
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 150
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 150
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 150
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 150
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 150
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 150
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 150
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 150
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 150
+  Batch size = 12
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running Prediction *****
+  Num examples = 150
+  Batch size = 12
+{'acc': 0.5333333333333333, 'f1_weighted': 0.5285223481038056, 'report':               precision    recall  f1-score     support
+0              0.714286  0.660377  0.686275   53.000000
+1              0.441176  0.312500  0.365854   48.000000
+2              0.447761  0.612245  0.517241   49.000000
+accuracy       0.533333  0.533333  0.533333    0.533333
+macro avg      0.534408  0.528374  0.523123  150.000000
+weighted avg   0.539826  0.533333  0.528522  150.000000} {'eval_runtime': 1.0506, 'eval_samples_per_second': 142.771, 'eval_steps_per_second': 12.373, 'epoch': 5.0}
+***** Running Evaluation *****
+  Num examples = 150
+  Batch size = 12
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '

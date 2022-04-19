@@ -1,0 +1,1565 @@
+2022-03-08 18:48:24,171 INFO    MainThread:10295 [internal.py:wandb_internal():89] W&B internal server running at pid: 10295, started at: 2022-03-08 18:48:24.170765
+2022-03-08 18:48:24,173 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: check_version
+2022-03-08 18:48:24,174 INFO    WriterThread:10295 [datastore.py:open_for_write():77] open: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/run-2x9796y6.wandb
+2022-03-08 18:48:24,180 DEBUG   SenderThread:10295 [sender.py:send():185] send: header
+2022-03-08 18:48:24,180 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: check_version
+2022-03-08 18:48:24,251 DEBUG   SenderThread:10295 [sender.py:send():185] send: run
+2022-03-08 18:48:24,463 INFO    SenderThread:10295 [dir_watcher.py:__init__():169] watching files in: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files
+2022-03-08 18:48:24,463 INFO    SenderThread:10295 [sender.py:_start_run_threads():749] run started: 2x9796y6 with start time 1646761702
+2022-03-08 18:48:24,463 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:48:24,464 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:48:24,466 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: run_start
+2022-03-08 18:48:25,467 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:48:27,175 DEBUG   HandlerThread:10295 [meta.py:__init__():40] meta init
+2022-03-08 18:48:27,175 DEBUG   HandlerThread:10295 [meta.py:__init__():54] meta init done
+2022-03-08 18:48:27,175 DEBUG   HandlerThread:10295 [meta.py:probe():211] probe
+2022-03-08 18:48:27,182 DEBUG   HandlerThread:10295 [meta.py:_setup_git():201] setup git
+2022-03-08 18:48:27,215 DEBUG   HandlerThread:10295 [meta.py:_setup_git():208] setup git done
+2022-03-08 18:48:27,215 DEBUG   HandlerThread:10295 [meta.py:_save_pip():58] save pip
+2022-03-08 18:48:27,217 DEBUG   HandlerThread:10295 [meta.py:_save_pip():72] save pip done
+2022-03-08 18:48:27,217 DEBUG   HandlerThread:10295 [meta.py:_save_conda():79] save conda
+2022-03-08 18:48:27,469 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/conda-environment.yaml
+2022-03-08 18:48:27,471 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/requirements.txt
+2022-03-08 18:48:29,476 DEBUG   HandlerThread:10295 [meta.py:_save_conda():87] save conda done
+2022-03-08 18:48:29,476 DEBUG   HandlerThread:10295 [meta.py:probe():249] probe done
+2022-03-08 18:48:29,483 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:48:29,484 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:48:29,648 DEBUG   SenderThread:10295 [sender.py:send():185] send: files
+2022-03-08 18:48:29,648 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2022-03-08 18:48:30,102 DEBUG   SenderThread:10295 [sender.py:send():185] send: config
+2022-03-08 18:48:30,104 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:30,104 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:30,104 WARNING SenderThread:10295 [sender.py:send_metric():837] Seen metric with glob (shouldnt happen)
+2022-03-08 18:48:30,194 INFO    Thread-11 :10295 [upload_job.py:push():137] Uploaded file /var/tmp/pbs.31020.lich-compute.vscht.cz/tmpbl8mtc2bwandb/2nci8h6b-wandb-metadata.json
+2022-03-08 18:48:30,472 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 18:48:30,473 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-metadata.json
+2022-03-08 18:48:32,475 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 18:48:44,650 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:48:44,650 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:48:52,407 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,413 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,416 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,416 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,417 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,417 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,417 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,417 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,418 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,418 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,418 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,418 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,418 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,419 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,419 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,419 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,419 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,420 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,420 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,420 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,420 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,420 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,421 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,421 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,421 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,421 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,421 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,422 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,422 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,422 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,422 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,422 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,423 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,423 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,423 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,423 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,423 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,424 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,424 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,424 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,424 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,424 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,425 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,425 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,425 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,425 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,425 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,426 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,426 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,426 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,426 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,426 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,426 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,427 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,427 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,427 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,427 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,427 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,428 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,428 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,428 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,428 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,428 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,428 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,429 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,429 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,429 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,429 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,429 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,430 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,430 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,430 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,430 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,430 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,431 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,431 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,431 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,431 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,431 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,431 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,432 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,432 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,432 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,432 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,432 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,433 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,433 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:48:52,433 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:48:52,440 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:48:52,453 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:48:52,499 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:48:55,503 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/config.yaml
+2022-03-08 18:48:56,247 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:48:59,798 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:48:59,802 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:49:14,350 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:49:14,357 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:49:14,369 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:49:14,525 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:49:14,951 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:49:14,952 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:49:27,575 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:49:30,127 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:49:30,127 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:49:35,825 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:49:35,832 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:49:35,843 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:49:36,551 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:49:45,311 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:49:45,312 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:49:57,545 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:49:57,554 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:49:57,568 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:49:57,575 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:49:58,736 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:50:00,472 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:50:00,473 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:50:15,673 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:50:15,674 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:50:19,884 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:50:19,891 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:50:19,898 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:50:20,603 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:50:29,811 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:50:30,830 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:50:30,830 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:50:42,677 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:50:42,680 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:50:42,684 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:50:43,629 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:50:46,008 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:50:46,008 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:51:00,708 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:51:01,180 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:51:01,180 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:51:05,201 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:51:05,205 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:51:05,218 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:51:05,655 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:51:16,373 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:51:16,374 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:51:27,358 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:51:27,370 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:51:27,380 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:51:27,681 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:51:31,545 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:51:31,546 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:51:31,726 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:51:46,727 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:51:46,727 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:51:49,778 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:51:49,781 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:51:49,786 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:51:50,707 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:52:01,894 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:52:01,894 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:52:02,533 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:52:12,108 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:52:12,118 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:52:12,131 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:52:12,734 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:52:17,068 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:52:17,068 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:52:32,243 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:52:32,243 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:52:33,794 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:52:34,131 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:52:34,142 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:52:34,147 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:52:34,760 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:52:47,391 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:52:47,391 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:52:56,753 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:52:56,760 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:52:56,767 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:52:56,785 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:53:02,556 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:53:02,556 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:53:04,811 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:53:17,704 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:53:17,705 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:53:18,877 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:53:18,887 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:53:18,895 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:53:19,812 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:53:32,937 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:53:32,938 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:53:35,793 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:53:40,857 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:53:40,869 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:53:40,878 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:53:41,838 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:53:48,089 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:53:48,090 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:54:03,222 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:54:03,228 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:54:03,235 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:54:03,254 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:54:03,254 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:54:03,863 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:54:04,865 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 18:54:06,946 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:54:18,415 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:54:18,415 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:54:33,592 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:54:33,592 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:54:38,233 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:54:48,765 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:54:48,766 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:55:00,930 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:55:00,932 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:55:00,932 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 18:55:00,933 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:55:00,933 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:55:00,943 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:55:01,923 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:55:03,945 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:55:03,945 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:55:09,689 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:55:19,133 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:55:19,133 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:55:22,710 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:55:22,718 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:55:22,728 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:55:22,947 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:55:29,955 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/config.yaml
+2022-03-08 18:55:34,311 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:55:34,311 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:55:40,524 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:55:44,468 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:55:44,478 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:55:44,486 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:55:44,972 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:55:49,517 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:55:49,518 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:56:04,689 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:56:04,689 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:56:06,484 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:56:06,495 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:56:06,505 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:56:06,999 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:56:11,337 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:56:20,332 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:56:20,332 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:56:28,312 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:56:28,324 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:56:28,333 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:56:29,025 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:56:35,505 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:56:35,506 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:56:42,130 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:56:50,141 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:56:50,147 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:56:50,156 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:56:50,765 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:56:50,765 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:56:51,051 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:57:05,929 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:57:05,930 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:57:12,197 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:57:12,201 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:57:12,211 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:57:13,079 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:57:13,352 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:57:21,091 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:57:21,092 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:57:34,391 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:57:34,399 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:57:34,404 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:57:35,104 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:57:36,259 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:57:36,259 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:57:44,391 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:57:51,428 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:57:51,428 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:57:56,627 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:57:56,635 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:57:56,640 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:57:57,129 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:58:06,590 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:58:06,590 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:58:15,183 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:58:18,899 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:58:18,909 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:58:18,917 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:58:19,156 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:58:21,881 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:58:21,882 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:58:37,034 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:58:37,035 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:58:41,103 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:58:41,111 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:58:41,115 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:58:41,181 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:58:46,018 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:58:52,184 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:58:52,184 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:59:03,078 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:59:03,085 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:59:03,093 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:59:03,206 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:59:07,357 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:59:07,358 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:59:16,877 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:59:22,524 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:59:22,525 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:59:25,093 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:59:25,102 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:59:25,107 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:59:25,231 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:59:37,682 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:59:37,682 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 18:59:46,983 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 18:59:46,993 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 18:59:47,006 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 18:59:47,256 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 18:59:47,791 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 18:59:52,849 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 18:59:52,849 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:00:07,995 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:00:07,996 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:00:08,984 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:00:08,991 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:00:08,996 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:00:09,282 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:00:18,913 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:00:23,149 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:00:23,149 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:00:31,110 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:00:31,118 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:00:31,126 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:00:31,307 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:00:33,311 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:00:38,308 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:00:38,309 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:00:50,030 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:00:53,525 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:00:53,526 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:01:08,690 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:01:08,690 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:01:21,144 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:01:23,862 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:01:23,863 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:01:29,345 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:01:29,345 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:01:29,353 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:01:29,371 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:01:39,033 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:01:39,033 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:01:51,793 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:01:51,800 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:01:51,816 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:01:52,193 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:01:52,397 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:01:54,201 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:01:54,202 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:02:09,374 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:02:09,375 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:02:14,137 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:02:14,147 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:02:14,157 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:02:14,424 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:02:23,563 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:02:24,544 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:02:24,544 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:02:36,425 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:02:36,433 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:02:36,443 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:02:36,448 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:02:39,709 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:02:39,710 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:02:54,376 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:02:54,883 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:02:54,883 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:02:58,618 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:02:58,627 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:02:58,635 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:02:59,474 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:03:10,041 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:03:10,042 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:03:20,488 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:03:20,496 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:03:20,505 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:03:21,505 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:03:25,218 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:03:25,249 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:03:25,249 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:03:40,412 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:03:40,413 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:03:42,264 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:03:42,271 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:03:42,280 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:03:42,529 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:03:55,584 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:03:55,585 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:03:56,029 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:04:04,539 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:04:04,552 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:04:04,561 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:04:05,561 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:04:10,773 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:04:10,774 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:04:25,935 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:04:25,935 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:04:26,703 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:04:26,707 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:04:26,718 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:04:27,128 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:04:27,586 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:04:41,105 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:04:41,105 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:04:48,581 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:04:48,589 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:04:48,598 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:04:48,609 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:04:56,280 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:04:56,280 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:04:58,440 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:05:10,735 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:05:10,742 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:05:10,752 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:05:11,447 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:05:11,448 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:05:11,637 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:05:26,651 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:05:26,651 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:05:29,518 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:05:32,924 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:05:32,933 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:05:32,940 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:05:33,665 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:05:41,808 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:05:41,808 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:05:54,730 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:05:54,735 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:05:54,741 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:05:55,687 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:05:57,010 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:05:57,010 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:06:00,709 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:06:12,160 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:06:12,160 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:06:16,421 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:06:16,426 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:06:16,431 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:06:16,709 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:06:27,339 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:06:27,340 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:06:31,791 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:06:37,852 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:06:37,862 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:06:37,871 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:06:38,730 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:06:42,485 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:06:42,486 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:06:57,666 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:06:57,667 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:06:59,345 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:06:59,356 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:06:59,365 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:06:59,751 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:07:00,753 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:07:02,976 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:07:12,850 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:07:12,851 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:07:28,018 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:07:28,019 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:07:34,253 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:07:43,212 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:07:43,212 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:07:57,222 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:07:57,223 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:07:57,233 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:07:57,809 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:07:58,381 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:07:58,381 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:08:05,408 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:08:13,554 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:08:13,554 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:08:18,866 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:08:18,877 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:08:18,886 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:08:19,831 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:08:28,741 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:08:28,741 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:08:36,542 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:08:41,028 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:08:41,036 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:08:41,040 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:08:41,851 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:08:44,025 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:08:44,025 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:08:59,173 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:08:59,174 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:09:03,029 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:09:03,033 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:09:03,037 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:09:03,873 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:09:07,424 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:09:14,340 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:09:14,340 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:09:24,949 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:09:24,958 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:09:24,966 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:09:25,895 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:09:29,496 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:09:29,496 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:09:38,384 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:09:44,664 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:09:44,665 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:09:46,576 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:09:46,584 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:09:46,591 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:09:46,915 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:09:59,860 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:09:59,861 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:10:08,416 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:10:08,429 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:10:08,444 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:10:08,938 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:10:09,290 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:10:15,028 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:10:15,028 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:10:30,186 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:10:30,197 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:10:30,205 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:10:30,209 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:10:30,209 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:10:30,960 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:10:40,411 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:10:45,370 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:10:45,370 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:10:51,913 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:10:51,924 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:10:51,932 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:10:51,980 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:11:00,540 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:11:00,541 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:11:11,835 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:11:13,410 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:11:13,420 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:11:13,428 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:11:14,003 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:11:15,728 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:11:15,728 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:11:30,910 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:11:30,911 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:11:34,980 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:11:34,990 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:11:34,997 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:11:35,024 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:11:43,138 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:11:46,069 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:11:46,069 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:11:56,640 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:11:56,650 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:11:56,658 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:11:57,042 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:12:01,228 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:12:01,229 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:12:14,263 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:12:16,380 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:12:16,380 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:12:18,867 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:12:18,877 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:12:18,886 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:12:19,061 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:12:31,541 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:12:31,542 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:12:40,860 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:12:40,867 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:12:40,871 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:12:41,083 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:12:45,513 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:12:46,689 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:12:46,689 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:13:01,849 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:13:01,850 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:13:02,560 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:13:02,566 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:13:02,574 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:13:03,105 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:13:16,582 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:13:17,033 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:13:17,033 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:13:24,332 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:13:24,338 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:13:24,346 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:13:25,123 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:13:27,125 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:13:32,234 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:13:32,235 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:13:47,398 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:13:47,399 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:13:47,562 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:14:02,569 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:14:02,569 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:14:17,741 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:14:17,742 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:14:18,514 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:14:22,033 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:14:22,035 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:14:22,042 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:14:22,174 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:14:32,905 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:14:32,906 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:14:44,123 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:14:44,129 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:14:44,134 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:14:44,193 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:14:48,055 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:14:48,056 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:14:49,449 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:15:03,212 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:15:03,213 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:15:05,808 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:15:05,814 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:15:05,821 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:15:06,215 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:15:18,378 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:15:18,379 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:15:20,353 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:15:27,870 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:15:27,876 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:15:27,883 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:15:28,232 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:15:33,552 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:15:33,552 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:15:48,714 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:15:48,714 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:15:49,694 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:15:49,702 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:15:49,710 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:15:50,250 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:15:51,333 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:16:03,893 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:16:03,893 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:16:11,394 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:16:11,404 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:16:11,411 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:16:12,270 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:16:19,058 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:16:19,059 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:16:22,119 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:16:33,026 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:16:33,035 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:16:33,043 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:16:33,289 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:16:34,227 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:16:34,227 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:16:49,394 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:16:49,395 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:16:53,231 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:16:54,954 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:16:54,964 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:16:54,972 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:16:55,307 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:17:04,545 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:17:04,545 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:17:16,995 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:17:17,001 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:17:17,009 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:17:17,328 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:17:19,770 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:17:19,770 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:17:24,495 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:17:34,924 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:17:34,925 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:17:38,988 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:17:38,991 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:17:38,996 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:17:39,346 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:17:50,074 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:17:50,075 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:17:55,407 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:18:00,976 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:18:00,985 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:18:00,994 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:18:01,366 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:18:05,239 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:18:05,239 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:18:20,410 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:18:20,411 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:18:22,791 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:18:22,798 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:18:22,803 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:18:23,386 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:18:26,499 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:18:35,559 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:18:35,560 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:18:45,025 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:18:45,031 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:18:45,037 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:18:45,406 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:18:50,716 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:18:50,717 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:18:57,576 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:19:05,876 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:19:05,877 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:19:06,987 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:19:06,998 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:19:07,005 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:19:07,425 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:19:21,046 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:19:21,046 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:19:28,470 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:19:28,864 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:19:28,873 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:19:28,878 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:19:29,445 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:19:36,302 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:19:36,303 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:19:50,969 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:19:50,977 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:19:50,982 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:19:51,455 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:19:51,455 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:19:51,464 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:19:53,467 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:19:59,809 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:20:06,607 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:20:06,607 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:20:21,813 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:20:21,814 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:20:30,803 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:20:36,987 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:20:36,987 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:20:49,051 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:20:49,053 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:20:49,063 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:20:49,519 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:20:52,170 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:20:52,171 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:21:01,912 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:21:07,376 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:21:07,377 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:21:10,743 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:21:10,753 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:21:10,761 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:21:11,539 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:21:22,538 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:21:22,539 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:21:32,403 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:21:32,413 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:21:32,427 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:21:32,559 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:21:33,082 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:21:37,699 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:21:37,699 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:21:52,869 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:21:52,870 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:21:54,388 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:21:54,397 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:21:54,406 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:21:54,580 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:22:04,253 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:22:08,035 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:22:08,035 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:22:16,236 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:22:16,244 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:22:16,253 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:22:16,603 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:22:23,206 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:22:23,206 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:22:35,240 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:22:37,981 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:22:37,991 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:22:38,000 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:22:38,370 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:22:38,370 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:22:38,626 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:22:53,548 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:22:53,549 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:22:59,569 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:22:59,578 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:22:59,587 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:22:59,648 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:23:06,370 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:23:08,715 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:23:08,716 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:23:21,267 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:23:21,273 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:23:21,280 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:23:21,671 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:23:23,905 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:23:23,906 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:23:37,401 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:23:39,056 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:23:39,056 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:23:43,092 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:23:43,096 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:23:43,100 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:23:43,694 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:23:54,214 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:23:54,215 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:24:04,943 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:24:04,946 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:24:04,951 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:24:05,715 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:24:08,582 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:24:09,390 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:24:09,390 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:24:24,560 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:24:24,560 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:24:26,735 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:24:26,738 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:24:26,743 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:24:27,743 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:24:39,679 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:24:39,730 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:24:39,731 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:24:48,593 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:24:48,601 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:24:48,610 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:24:48,762 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:24:54,878 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:24:54,879 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:25:09,955 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:25:09,962 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:25:09,975 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:25:10,039 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:25:10,039 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:25:10,787 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:25:10,890 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:25:25,201 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:25:25,201 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:25:31,549 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:25:31,554 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:25:31,559 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:25:31,809 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:25:41,101 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:25:41,101 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:25:42,031 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:25:53,629 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:25:53,632 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:25:53,637 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:25:53,829 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:25:56,282 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:25:56,282 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:26:11,447 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:26:11,448 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:26:13,135 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:26:15,413 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:26:15,421 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:26:15,429 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:26:15,853 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:26:17,855 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:26:26,800 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:26:26,801 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:26:41,980 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:26:41,981 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:26:43,896 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:26:57,148 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:26:57,149 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:27:12,312 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:27:12,313 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:27:12,696 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:27:12,698 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:27:12,706 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:27:12,916 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:27:14,665 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:27:27,477 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:27:27,478 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:27:34,339 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:27:34,345 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:27:34,352 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:27:34,938 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:27:42,640 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:27:42,641 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:27:45,778 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:27:56,148 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:27:56,154 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:27:56,162 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:27:56,959 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:27:57,797 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:27:57,797 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:28:12,960 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:28:12,961 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:28:16,818 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:28:17,778 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:28:17,787 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:28:17,795 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:28:17,976 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:28:28,164 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:28:28,165 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:28:39,566 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:28:39,574 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:28:39,583 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:28:39,995 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:28:43,356 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:28:43,357 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:28:47,900 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:28:58,523 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:28:58,524 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:29:01,597 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:29:01,603 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:29:01,610 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:29:02,015 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:29:13,686 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:29:13,686 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:29:19,015 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:29:23,348 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:29:23,355 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:29:23,361 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:29:24,035 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:29:28,840 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:29:28,840 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:29:43,991 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:29:43,991 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:29:45,465 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:29:45,473 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:29:45,480 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:29:46,055 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:29:50,114 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:29:59,159 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:29:59,159 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:30:07,297 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:30:07,303 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:30:07,307 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:30:08,074 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:30:14,316 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:30:14,316 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:30:21,098 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:30:29,232 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:30:29,238 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:30:29,246 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:30:29,476 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:30:29,477 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:30:30,094 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:30:44,638 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:30:44,639 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:30:51,334 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:30:51,339 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:30:51,349 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:30:52,072 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:30:52,113 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:30:52,113 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:30:54,115 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:30:59,820 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:30:59,820 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:31:13,395 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:31:13,399 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:31:13,403 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:31:14,134 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:31:14,983 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:31:14,983 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:31:23,459 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:31:30,164 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:31:30,164 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:31:35,133 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:31:35,141 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:31:35,148 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:31:35,153 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:31:45,332 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:31:45,333 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:31:54,345 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:31:56,771 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:31:56,779 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:31:56,788 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:31:57,175 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:32:00,505 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:32:00,506 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:32:15,667 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:32:15,667 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:32:18,389 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:32:18,399 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:32:18,407 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:32:19,198 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:32:25,273 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:32:30,841 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:32:30,841 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:32:40,145 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:32:40,153 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:32:40,160 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:32:40,220 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:32:42,223 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:32:46,002 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:32:46,003 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:32:56,393 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:33:01,172 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:33:01,172 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:33:16,367 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:33:16,367 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:33:27,798 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:33:31,533 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:33:31,534 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:33:36,851 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:33:36,853 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:33:36,863 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:33:37,277 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:33:46,700 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:33:46,701 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:33:58,477 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:33:58,488 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:33:58,503 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:33:58,723 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:33:59,300 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:34:01,866 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:34:01,866 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:34:17,039 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:34:17,040 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:34:20,066 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:34:20,074 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:34:20,083 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:34:20,323 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:34:29,776 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:34:32,236 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:34:32,236 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:34:41,753 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:34:41,761 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:34:41,769 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:34:42,346 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:34:47,414 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:34:47,414 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:35:00,880 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:35:02,579 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:35:02,580 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:35:03,816 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:35:03,827 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:35:03,836 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:35:04,368 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:35:17,745 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:35:17,745 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:35:25,685 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:35:25,695 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:35:25,704 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:35:26,393 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:35:31,891 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:35:32,944 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:35:32,945 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:35:47,565 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:35:47,577 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:35:47,586 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:35:48,107 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:35:48,107 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:35:48,416 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:36:02,781 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:36:03,281 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:36:03,282 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:36:09,446 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:36:09,455 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:36:09,462 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:36:09,462 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:36:10,463 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:36:18,446 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:36:18,447 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:36:31,450 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:36:31,458 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:36:31,462 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:36:31,484 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:36:33,613 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:36:33,614 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:36:33,777 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:36:48,779 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:36:48,779 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:36:53,437 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:36:53,447 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:36:53,454 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:36:53,505 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:37:03,944 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:37:03,945 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:37:04,654 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:37:15,326 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:37:15,335 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:37:15,344 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:37:15,529 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:37:19,117 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:37:19,118 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:37:34,285 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:37:34,285 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:37:35,791 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:37:37,171 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:37:37,180 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:37:37,186 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:37:37,552 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:37:49,446 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:37:49,446 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:37:58,935 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:37:58,948 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:37:58,957 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:37:59,575 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:38:04,613 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:38:04,613 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:38:06,662 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:38:19,782 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:38:19,782 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:38:20,631 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:38:20,640 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:38:20,648 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:38:21,598 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:38:34,948 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:38:34,949 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:38:37,688 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:38:42,474 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:38:42,485 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:38:42,494 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:38:42,619 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:38:50,132 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:38:50,133 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:39:04,176 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:39:04,188 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:39:04,197 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:39:04,644 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:39:05,292 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:39:05,292 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:39:05,645 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:39:08,876 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:39:20,453 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:39:20,454 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:39:35,639 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:39:35,640 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:39:40,357 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:39:50,810 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:39:50,811 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:40:01,297 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:40:01,299 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:40:01,308 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:40:01,710 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:40:05,985 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:40:05,986 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:40:11,699 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:40:21,177 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:40:21,177 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:40:22,862 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:40:22,871 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:40:22,878 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:40:23,734 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:40:36,362 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:40:36,362 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:40:43,051 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:40:44,982 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:40:44,988 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:40:44,992 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:40:45,752 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:40:51,534 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:40:51,534 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:41:06,695 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:41:06,695 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:41:07,105 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:41:07,108 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:41:07,112 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:41:07,774 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:41:14,493 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:41:21,877 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:41:21,877 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:41:29,423 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:41:29,429 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:41:29,437 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:41:29,793 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:41:37,042 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:41:37,042 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:41:45,676 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:41:51,575 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:41:51,579 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:41:51,583 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:41:51,812 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:41:52,200 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:41:52,200 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:42:07,349 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:42:07,349 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:42:13,398 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:42:13,404 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:42:13,411 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:42:13,835 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:42:16,483 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:42:22,531 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:42:22,532 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:42:35,158 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:42:35,170 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:42:35,179 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:42:35,858 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:42:37,680 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:42:37,681 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:42:47,474 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:42:52,845 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:42:52,846 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:42:56,861 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:42:56,871 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:42:56,879 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:42:56,880 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:43:08,020 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:43:08,021 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:43:18,230 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:43:18,243 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:43:18,258 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:43:18,872 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:43:18,904 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:43:23,190 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:43:23,191 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:43:38,356 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:43:38,357 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:43:39,811 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:43:39,827 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:43:39,835 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:43:39,926 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:43:50,421 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:43:53,504 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:43:53,504 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:44:01,397 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:44:01,403 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:44:01,412 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:44:01,949 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:44:08,662 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:44:08,663 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:44:21,734 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:44:23,344 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:44:23,352 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:44:23,362 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:44:23,839 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:44:23,840 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:44:23,972 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:44:39,031 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:44:39,032 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:44:45,314 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:44:45,320 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:44:45,327 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:44:45,995 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:44:52,880 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:44:54,228 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:44:54,229 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:45:07,477 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:45:07,488 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:45:07,495 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:45:08,018 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:45:09,389 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:45:09,389 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:45:23,932 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:45:24,571 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:45:24,571 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:45:29,601 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:45:29,611 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:45:29,618 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:45:30,038 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:45:32,040 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:45:39,731 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:45:39,731 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:45:54,907 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:45:54,908 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:45:55,066 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:46:10,073 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:46:10,074 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:46:25,247 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:46:25,247 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:46:25,988 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:46:27,247 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:46:27,249 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:46:27,257 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:46:28,101 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:46:40,404 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:46:40,404 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:46:49,357 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:46:49,367 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:46:49,375 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:46:50,124 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:46:55,588 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:46:55,589 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:46:57,205 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:47:10,752 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:47:10,753 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:47:11,402 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:47:11,409 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:47:11,417 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:47:12,148 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:47:25,913 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:47:25,914 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:47:28,187 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:47:33,606 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:47:33,618 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:47:33,627 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:47:34,167 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:47:41,087 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:47:41,088 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:47:55,580 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:47:55,590 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:47:55,597 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:47:56,186 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:47:56,249 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:47:56,250 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:47:59,058 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:48:11,401 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:48:11,402 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:48:17,336 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:48:17,345 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:48:17,353 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:48:18,203 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:48:26,592 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:48:26,592 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:48:29,834 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:48:39,118 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:48:39,126 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:48:39,130 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:48:39,221 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:48:41,751 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:48:41,751 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:48:56,900 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:48:56,900 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:49:00,668 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:49:00,897 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:49:00,904 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:49:00,908 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:49:01,244 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:49:12,052 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:49:12,053 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:49:22,817 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:49:22,825 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:49:22,830 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:49:23,266 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:49:27,255 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:49:27,256 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:49:31,516 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:49:42,413 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:49:42,413 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:49:44,546 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:49:44,553 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:49:44,557 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:49:45,288 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:49:57,576 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:49:57,576 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:50:02,319 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:50:06,312 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:50:06,323 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:50:06,327 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:50:06,328 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:50:12,725 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:50:12,725 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:50:27,877 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:50:27,877 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:50:28,052 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:50:28,059 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:50:28,064 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:50:28,348 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:50:33,293 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:50:43,035 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:50:43,035 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:50:50,134 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:50:50,138 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:50:50,144 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:50:50,364 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:50:58,187 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:50:58,187 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:51:04,333 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:51:12,053 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:51:12,061 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:51:12,066 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:51:12,382 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:51:13,345 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:51:13,345 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:51:28,496 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:51:28,496 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:51:33,726 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:51:33,732 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:51:33,739 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:51:34,399 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:51:35,663 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:51:43,657 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:51:43,657 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:51:55,632 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:51:55,642 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:51:55,649 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:51:56,416 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:51:56,416 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:51:58,816 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:51:58,817 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:52:06,517 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:52:13,983 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:52:13,983 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:52:29,150 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:52:29,151 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:52:37,389 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:52:44,378 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:52:44,379 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:52:52,492 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:52:52,499 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:52:52,509 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:52:52,509 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 19:52:52,510 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 19:52:52,510 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 19:52:52,510 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 19:52:52,510 DEBUG   SenderThread:10295 [sender.py:send():185] send: metric
+2022-03-08 19:52:52,510 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:52:52,511 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:52:52,549 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:52:53,464 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:52:54,465 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:52:59,563 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:52:59,564 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:53:00,470 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/config.yaml
+2022-03-08 19:53:08,552 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:53:14,736 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:53:14,736 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:53:29,924 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:53:29,924 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:53:39,566 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:53:45,094 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:53:45,094 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:53:50,518 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:54:00,429 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:54:00,429 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:54:10,804 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:54:15,600 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:54:15,601 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:54:30,772 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:54:30,772 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:54:42,048 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:54:45,943 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-08 19:54:45,944 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: stop_status
+2022-03-08 19:54:46,436 DEBUG   SenderThread:10295 [sender.py:send():185] send: history
+2022-03-08 19:54:46,437 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:54:46,448 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:54:46,574 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:54:47,575 INFO    Thread-8  :10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:54:47,816 DEBUG   SenderThread:10295 [sender.py:send():185] send: telemetry
+2022-03-08 19:54:47,816 DEBUG   SenderThread:10295 [sender.py:send():185] send: exit
+2022-03-08 19:54:47,817 INFO    SenderThread:10295 [sender.py:send_exit():294] handling exit code: 0
+2022-03-08 19:54:47,820 INFO    SenderThread:10295 [sender.py:send_exit():296] handling runtime: 3983
+2022-03-08 19:54:47,820 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:47,827 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:54:47,827 INFO    SenderThread:10295 [sender.py:send_exit():306] send defer
+2022-03-08 19:54:47,828 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:47,829 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: defer
+2022-03-08 19:54:47,829 INFO    HandlerThread:10295 [handler.py:handle_request_defer():143] handle defer: 0
+2022-03-08 19:54:47,829 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: defer
+2022-03-08 19:54:47,830 INFO    SenderThread:10295 [sender.py:send_request_defer():315] handle sender defer: 0
+2022-03-08 19:54:47,830 INFO    SenderThread:10295 [sender.py:transition_state():319] send defer: 1
+2022-03-08 19:54:47,830 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: defer
+2022-03-08 19:54:47,830 INFO    HandlerThread:10295 [handler.py:handle_request_defer():143] handle defer: 1
+2022-03-08 19:54:47,979 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:47,980 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: defer
+2022-03-08 19:54:47,981 INFO    SenderThread:10295 [sender.py:send_request_defer():315] handle sender defer: 1
+2022-03-08 19:54:47,981 INFO    SenderThread:10295 [sender.py:transition_state():319] send defer: 2
+2022-03-08 19:54:47,981 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:47,981 DEBUG   SenderThread:10295 [sender.py:send():185] send: stats
+2022-03-08 19:54:47,983 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: defer
+2022-03-08 19:54:47,983 INFO    HandlerThread:10295 [handler.py:handle_request_defer():143] handle defer: 2
+2022-03-08 19:54:47,983 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: defer
+2022-03-08 19:54:47,984 INFO    SenderThread:10295 [sender.py:send_request_defer():315] handle sender defer: 2
+2022-03-08 19:54:47,984 INFO    SenderThread:10295 [sender.py:transition_state():319] send defer: 3
+2022-03-08 19:54:47,984 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: defer
+2022-03-08 19:54:47,984 INFO    HandlerThread:10295 [handler.py:handle_request_defer():143] handle defer: 3
+2022-03-08 19:54:47,990 DEBUG   SenderThread:10295 [sender.py:send():185] send: summary
+2022-03-08 19:54:47,999 INFO    SenderThread:10295 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-03-08 19:54:48,000 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: defer
+2022-03-08 19:54:48,000 INFO    SenderThread:10295 [sender.py:send_request_defer():315] handle sender defer: 3
+2022-03-08 19:54:48,000 INFO    SenderThread:10295 [sender.py:transition_state():319] send defer: 4
+2022-03-08 19:54:48,001 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: defer
+2022-03-08 19:54:48,001 INFO    HandlerThread:10295 [handler.py:handle_request_defer():143] handle defer: 4
+2022-03-08 19:54:48,001 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: defer
+2022-03-08 19:54:48,001 INFO    SenderThread:10295 [sender.py:send_request_defer():315] handle sender defer: 4
+2022-03-08 19:54:48,084 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:48,310 INFO    SenderThread:10295 [sender.py:transition_state():319] send defer: 5
+2022-03-08 19:54:48,311 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:48,311 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: defer
+2022-03-08 19:54:48,312 INFO    HandlerThread:10295 [handler.py:handle_request_defer():143] handle defer: 5
+2022-03-08 19:54:48,312 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: defer
+2022-03-08 19:54:48,312 INFO    SenderThread:10295 [sender.py:send_request_defer():315] handle sender defer: 5
+2022-03-08 19:54:48,312 INFO    SenderThread:10295 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-08 19:54:48,412 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:48,577 INFO    SenderThread:10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/config.yaml
+2022-03-08 19:54:48,577 INFO    SenderThread:10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:54:48,578 INFO    SenderThread:10295 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:54:48,578 INFO    SenderThread:10295 [dir_watcher.py:finish():313] scan: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files
+2022-03-08 19:54:48,579 INFO    SenderThread:10295 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/config.yaml config.yaml
+2022-03-08 19:54:48,579 INFO    SenderThread:10295 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json wandb-summary.json
+2022-03-08 19:54:48,585 INFO    SenderThread:10295 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/requirements.txt requirements.txt
+2022-03-08 19:54:48,602 INFO    SenderThread:10295 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/conda-environment.yaml conda-environment.yaml
+2022-03-08 19:54:48,603 INFO    SenderThread:10295 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log output.log
+2022-03-08 19:54:48,614 INFO    SenderThread:10295 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-metadata.json wandb-metadata.json
+2022-03-08 19:54:48,614 INFO    SenderThread:10295 [sender.py:transition_state():319] send defer: 6
+2022-03-08 19:54:48,614 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:48,624 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: defer
+2022-03-08 19:54:48,626 INFO    HandlerThread:10295 [handler.py:handle_request_defer():143] handle defer: 6
+2022-03-08 19:54:48,628 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: defer
+2022-03-08 19:54:48,628 INFO    SenderThread:10295 [sender.py:send_request_defer():315] handle sender defer: 6
+2022-03-08 19:54:48,628 INFO    SenderThread:10295 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-08 19:54:48,729 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:48,730 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:48,836 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:48,837 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:48,939 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:48,940 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:49,043 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:49,043 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:49,145 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:49,145 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:49,247 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:49,247 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:49,269 INFO    Thread-14 :10295 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/requirements.txt
+2022-03-08 19:54:49,327 INFO    Thread-12 :10295 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/config.yaml
+2022-03-08 19:54:49,349 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:49,349 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:49,361 INFO    Thread-15 :10295 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/output.log
+2022-03-08 19:54:49,370 INFO    Thread-13 :10295 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/files/wandb-summary.json
+2022-03-08 19:54:49,451 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:49,451 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:49,553 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:49,553 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:49,571 INFO    Thread-7  :10295 [sender.py:transition_state():319] send defer: 7
+2022-03-08 19:54:49,572 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: defer
+2022-03-08 19:54:49,572 INFO    HandlerThread:10295 [handler.py:handle_request_defer():143] handle defer: 7
+2022-03-08 19:54:49,572 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: defer
+2022-03-08 19:54:49,572 INFO    SenderThread:10295 [sender.py:send_request_defer():315] handle sender defer: 7
+2022-03-08 19:54:49,654 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:50,365 INFO    SenderThread:10295 [sender.py:transition_state():319] send defer: 8
+2022-03-08 19:54:50,366 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:50,367 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: defer
+2022-03-08 19:54:50,367 INFO    HandlerThread:10295 [handler.py:handle_request_defer():143] handle defer: 8
+2022-03-08 19:54:50,367 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: defer
+2022-03-08 19:54:50,367 INFO    SenderThread:10295 [sender.py:send_request_defer():315] handle sender defer: 8
+2022-03-08 19:54:50,367 INFO    SenderThread:10295 [sender.py:transition_state():319] send defer: 9
+2022-03-08 19:54:50,368 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: defer
+2022-03-08 19:54:50,369 DEBUG   SenderThread:10295 [sender.py:send():185] send: final
+2022-03-08 19:54:50,369 INFO    HandlerThread:10295 [handler.py:handle_request_defer():143] handle defer: 9
+2022-03-08 19:54:50,369 DEBUG   SenderThread:10295 [sender.py:send():185] send: footer
+2022-03-08 19:54:50,370 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: defer
+2022-03-08 19:54:50,370 INFO    SenderThread:10295 [sender.py:send_request_defer():315] handle sender defer: 9
+2022-03-08 19:54:50,467 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-08 19:54:50,468 DEBUG   SenderThread:10295 [sender.py:send_request():199] send_request: poll_exit
+2022-03-08 19:54:50,468 INFO    SenderThread:10295 [file_pusher.py:join():182] waiting for file pusher
+2022-03-08 19:54:50,776 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: get_summary
+2022-03-08 19:54:50,784 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: sampled_history
+2022-03-08 19:54:50,788 DEBUG   HandlerThread:10295 [handler.py:handle_request():126] handle_request: shutdown
+2022-03-08 19:54:50,788 INFO    HandlerThread:10295 [handler.py:finish():683] shutting down handler
+2022-03-08 19:54:51,369 INFO    WriterThread:10295 [datastore.py:close():281] close: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_184821-2x9796y6/run-2x9796y6.wandb
+2022-03-08 19:54:51,773 INFO    SenderThread:10295 [sender.py:finish():986] shutting down sender
+2022-03-08 19:54:51,773 INFO    SenderThread:10295 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-08 19:54:51,773 INFO    SenderThread:10295 [file_pusher.py:join():182] waiting for file pusher
+2022-03-08 19:54:51,777 INFO    MainThread:10295 [internal.py:handle_exit():76] Internal process exited

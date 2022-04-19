@@ -1,0 +1,156 @@
+total_optimization_steps: 75000
+how many 'eval_steps' to set: 7500
+how many steps in each evaluation stop: 521
+hence in total: 3907500 steps for the whole evaluation
+Some weights of the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4 were not used when initializing RobertaModelWithHeads: ['lm_head.layer_norm.bias', 'lm_head.dense.weight', 'lm_head.bias', 'lm_head.dense.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaModelWithHeads from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModelWithHeads from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModelWithHeads were not initialized from the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4 and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+***** Running training *****
+  Num examples = 225000
+  Num Epochs = 4
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 12
+  Gradient Accumulation steps = 1
+  Total optimization steps = 75000
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/lieberze/.conda/envs/bio/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+Saving model checkpoint to 3x3_CV_batchsize_4/checkpoint-10000
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-10000/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-10000/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-10000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-10000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-10000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-10000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-10000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-10000/3x3_fold_0/pytorch_model_head.bin
+/home/lieberze/.conda/envs/bio/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+Saving model checkpoint to 3x3_CV_batchsize_4/checkpoint-20000
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-20000/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-20000/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-20000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-20000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-20000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-20000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-20000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-20000/3x3_fold_0/pytorch_model_head.bin
+/home/lieberze/.conda/envs/bio/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+Saving model checkpoint to 3x3_CV_batchsize_4/checkpoint-30000
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-30000/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-30000/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-30000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-30000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-30000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-30000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-30000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-30000/3x3_fold_0/pytorch_model_head.bin
+Deleting older checkpoint [3x3_CV_batchsize_4/checkpoint-10000] due to args.save_total_limit
+/home/lieberze/.conda/envs/bio/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+Saving model checkpoint to 3x3_CV_batchsize_4/checkpoint-40000
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-40000/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-40000/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-40000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-40000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-40000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-40000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-40000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-40000/3x3_fold_0/pytorch_model_head.bin
+Deleting older checkpoint [3x3_CV_batchsize_4/checkpoint-20000] due to args.save_total_limit
+/home/lieberze/.conda/envs/bio/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+Saving model checkpoint to 3x3_CV_batchsize_4/checkpoint-50000
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-50000/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-50000/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-50000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-50000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-50000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-50000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-50000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-50000/3x3_fold_0/pytorch_model_head.bin
+Deleting older checkpoint [3x3_CV_batchsize_4/checkpoint-30000] due to args.save_total_limit
+/home/lieberze/.conda/envs/bio/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+Saving model checkpoint to 3x3_CV_batchsize_4/checkpoint-60000
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-60000/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-60000/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-60000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-60000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-60000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-60000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-60000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-60000/3x3_fold_0/pytorch_model_head.bin
+Deleting older checkpoint [3x3_CV_batchsize_4/checkpoint-40000] due to args.save_total_limit
+/home/lieberze/.conda/envs/bio/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+Saving model checkpoint to 3x3_CV_batchsize_4/checkpoint-70000
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-70000/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-70000/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-70000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-70000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-70000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-70000/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/checkpoint-70000/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/checkpoint-70000/3x3_fold_0/pytorch_model_head.bin
+Deleting older checkpoint [3x3_CV_batchsize_4/checkpoint-50000] due to args.save_total_limit
+/home/lieberze/.conda/envs/bio/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running Prediction *****
+  Num examples = 25000
+  Batch size = 12
+***** Running Evaluation *****
+  Num examples = 25000
+  Batch size = 12
+/home/lieberze/.conda/envs/bio/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'acc': 0.57092, 'f1_weighted': 0.5751094433396032, 'report':               precision    recall  f1-score      support
+0              0.758726  0.662635  0.707432   8267.00000
+1              0.524468  0.554624  0.539124   8348.00000
+2              0.465259  0.496720  0.480475   8385.00000
+accuracy       0.570920  0.570920  0.570920      0.57092
+macro avg      0.582818  0.571326  0.575677  25000.00000
+weighted avg   0.582074  0.570920  0.575109  25000.00000} {'eval_runtime': 204.9491, 'eval_samples_per_second': 121.982, 'eval_steps_per_second': 10.168, 'epoch': 4.0}
+Saving model checkpoint to 3x3_CV_batchsize_4
+Configuration saved in 3x3_CV_batchsize_4/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV_batchsize_4/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV_batchsize_4/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV_batchsize_4/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV_batchsize_4/3x3_fold_0/pytorch_model_head.bin

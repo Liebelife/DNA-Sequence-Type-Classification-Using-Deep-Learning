@@ -1,0 +1,26 @@
+{
+    "os": "Linux-3.10.0-1160.25.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core",
+    "python": "3.6.13",
+    "heartbeatAt": "2022-03-08T15:29:44.728816",
+    "startedAt": "2022-03-08T15:29:40.895410",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 3,
+    "cpu_count": 48,
+    "cuda": "10.2.89",
+    "args": [
+        "-f",
+        "/home/lieberze/.local/share/jupyter/runtime/kernel-9ef69a69-7670-4396-994d-b1dd1ef7fe9e.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:Liebelife/Thesis.git",
+        "commit": "f6aa89cae6594423cba6cdc7219975850e69f0b3"
+    },
+    "email": "e.lieberzeit@gmail.com",
+    "root": "/home/lieberze/DP/Thesis",
+    "host": "lich-compute9.vscht.cz",
+    "username": "lieberze",
+    "executable": "/home/lieberze/.conda/envs/dp/bin/python"
+}

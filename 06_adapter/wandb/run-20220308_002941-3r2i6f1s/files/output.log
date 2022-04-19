@@ -1,0 +1,119 @@
+total_optimization_steps: 19
+how many 'eval_steps' to set: 2
+how many steps in each evaluation stop: 2
+hence in total: 4 steps for the whole evaluation
+loading configuration file /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_/config.json
+Model config RobertaConfig {
+  "adapters": {
+    "adapters": {},
+    "config_map": {},
+    "fusion_config_map": {},
+    "fusions": {}
+  },
+  "architectures": [
+    "RobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 6,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.11.3",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 5000
+}
+loading weights file /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_/pytorch_model.bin
+Some weights of the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_ were not used when initializing RobertaModelWithHeads: ['lm_head.layer_norm.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.dense.bias']
+- This IS expected if you are initializing RobertaModelWithHeads from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModelWithHeads from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModelWithHeads were not initialized from the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_ and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Adding adapter '3x3_fold_0'.
+Adding head '3x3_fold_0' with config {'head_type': 'classification', 'num_labels': 3, 'layers': 2, 'activation_function': 'tanh', 'label2id': {'exon': 0, 'intergenic': 1, 'intron': 2}, 'use_pooler': False, 'bias': True}.
+PyTorch: setting up devices
+***** Running training *****
+  Num examples = 900
+  Num Epochs = 1
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 48
+  Gradient Accumulation steps = 1
+  Total optimization steps = 19
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+{'eval_runtime': 0.239, 'eval_samples_per_second': 418.379, 'eval_steps_per_second': 12.551, 'epoch': 1.0}
+1.0893738395289372
+ TrainOutput(global_step=19, training_loss=1.0893738395289372, metrics={'train_runtime': 5.859, 'train_samples_per_second': 153.609, 'train_steps_per_second': 3.243, 'total_flos': 30523062297600.0, 'train_loss': 1.0893738395289372, 'epoch': 1.0})
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+Saving model checkpoint to 3x3_CV
+Configuration saved in 3x3_CV/3x3_fold_0/adapter_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_adapter.bin
+Configuration saved in 3x3_CV/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_model_head.bin
+Configuration saved in 3x3_CV/3x3_fold_0/head_config.json
+Module weights saved in 3x3_CV/3x3_fold_0/pytorch_model_head.bin
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 48
+{'input_ids': tensor([[   0,   43,  344,  ...,    1,    1,    1],
+        [   0,   56,  781,  ...,    1,    1,    1],
+        [   0, 4673,  542,  ...,    1,    1,    1],
+        ...,
+        [   0, 3927,  390,  ...,    1,    1,    1],
+        [   0,  360,  640,  ...,    1,    1,    1],
+        [   0, 1543,  392,  ...,    1,    1,    1]]), 'attention_mask': tensor([[1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        ...,
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0]]), 'labels': tensor([2, 1, 2, 2, 2, 0, 2, 2, 0, 1, 2, 2, 0, 0, 1, 2, 0, 2, 0, 1, 2, 0, 0, 0,
+        2, 1, 0, 2, 2, 0, 0, 0, 1, 1, 2, 1, 2, 1, 0, 0, 2, 1, 0, 2, 0, 0, 0, 1])}
+[1, 2]
+[1, 2]
+[1, 2]

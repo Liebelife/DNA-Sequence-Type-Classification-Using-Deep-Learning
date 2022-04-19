@@ -1,0 +1,151 @@
+2022-03-08 01:00:21,253 INFO    MainThread:5255 [internal.py:wandb_internal():92] W&B internal server running at pid: 5255, started at: 2022-03-08 01:00:21.253007
+2022-03-08 01:00:21,256 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: check_version
+2022-03-08 01:00:21,256 INFO    WriterThread:5255 [datastore.py:open_for_write():77] open: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/run-jgvsh4if.wandb
+2022-03-08 01:00:21,263 DEBUG   SenderThread:5255 [sender.py:send():235] send: header
+2022-03-08 01:00:21,263 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: check_version
+2022-03-08 01:00:21,332 DEBUG   SenderThread:5255 [sender.py:send():235] send: run
+2022-03-08 01:00:21,545 INFO    SenderThread:5255 [dir_watcher.py:__init__():169] watching files in: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files
+2022-03-08 01:00:21,545 INFO    SenderThread:5255 [sender.py:_start_run_threads():812] run started: jgvsh4if with start time 1646697619
+2022-03-08 01:00:21,545 DEBUG   SenderThread:5255 [sender.py:send():235] send: summary
+2022-03-08 01:00:21,547 INFO    SenderThread:5255 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-08 01:00:21,548 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: run_start
+2022-03-08 01:00:22,606 INFO    Thread-8  :5255 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/wandb-summary.json
+2022-03-08 01:00:23,578 DEBUG   HandlerThread:5255 [meta.py:__init__():36] meta init
+2022-03-08 01:00:23,578 DEBUG   HandlerThread:5255 [meta.py:__init__():50] meta init done
+2022-03-08 01:00:23,578 DEBUG   HandlerThread:5255 [meta.py:probe():210] probe
+2022-03-08 01:00:23,586 DEBUG   HandlerThread:5255 [meta.py:_setup_git():200] setup git
+2022-03-08 01:00:23,625 DEBUG   HandlerThread:5255 [meta.py:_setup_git():207] setup git done
+2022-03-08 01:00:23,625 DEBUG   HandlerThread:5255 [meta.py:_save_pip():54] save pip
+2022-03-08 01:00:23,627 DEBUG   HandlerThread:5255 [meta.py:_save_pip():68] save pip done
+2022-03-08 01:00:23,627 DEBUG   HandlerThread:5255 [meta.py:_save_conda():75] save conda
+2022-03-08 01:00:24,604 INFO    Thread-8  :5255 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/requirements.txt
+2022-03-08 01:00:24,606 INFO    Thread-8  :5255 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/conda-environment.yaml
+2022-03-08 01:00:26,605 INFO    Thread-8  :5255 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/output.log
+2022-03-08 01:00:27,544 DEBUG   HandlerThread:5255 [meta.py:_save_conda():85] save conda done
+2022-03-08 01:00:27,544 DEBUG   HandlerThread:5255 [meta.py:probe():248] probe done
+2022-03-08 01:00:27,550 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-08 01:00:27,551 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: stop_status
+2022-03-08 01:00:27,606 INFO    Thread-8  :5255 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/conda-environment.yaml
+2022-03-08 01:00:27,607 INFO    Thread-8  :5255 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/wandb-metadata.json
+2022-03-08 01:00:27,703 DEBUG   SenderThread:5255 [sender.py:send():235] send: files
+2022-03-08 01:00:27,703 INFO    SenderThread:5255 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-03-08 01:00:28,024 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: pause
+2022-03-08 01:00:28,024 INFO    HandlerThread:5255 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-03-08 01:00:28,162 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: resume
+2022-03-08 01:00:28,163 INFO    HandlerThread:5255 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-03-08 01:00:28,164 DEBUG   SenderThread:5255 [sender.py:send():235] send: stats
+2022-03-08 01:00:28,278 INFO    Thread-11 :5255 [upload_job.py:push():137] Uploaded file /var/tmp/pbs.38430.lich-compute.vscht.cz/tmp95f7mwdcwandb/2dej0h7m-wandb-metadata.json
+2022-03-08 01:00:28,604 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:28,605 DEBUG   SenderThread:5255 [sender.py:send():235] send: telemetry
+2022-03-08 01:00:28,605 DEBUG   SenderThread:5255 [sender.py:send():235] send: exit
+2022-03-08 01:00:28,605 INFO    SenderThread:5255 [sender.py:send_exit():371] handling exit code: 0
+2022-03-08 01:00:28,607 INFO    SenderThread:5255 [sender.py:send_exit():373] handling runtime: 7
+2022-03-08 01:00:28,609 INFO    Thread-8  :5255 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/wandb-summary.json
+2022-03-08 01:00:28,609 INFO    SenderThread:5255 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-08 01:00:28,609 INFO    Thread-8  :5255 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/output.log
+2022-03-08 01:00:28,610 INFO    SenderThread:5255 [sender.py:send_exit():379] send defer
+2022-03-08 01:00:28,610 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:28,611 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: defer
+2022-03-08 01:00:28,611 INFO    HandlerThread:5255 [handler.py:handle_request_defer():154] handle defer: 0
+2022-03-08 01:00:28,612 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: defer
+2022-03-08 01:00:28,612 INFO    SenderThread:5255 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-03-08 01:00:28,612 INFO    SenderThread:5255 [sender.py:transition_state():392] send defer: 1
+2022-03-08 01:00:28,612 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: defer
+2022-03-08 01:00:28,613 INFO    HandlerThread:5255 [handler.py:handle_request_defer():154] handle defer: 1
+2022-03-08 01:00:28,744 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: defer
+2022-03-08 01:00:28,744 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:28,744 INFO    SenderThread:5255 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-03-08 01:00:28,745 INFO    SenderThread:5255 [sender.py:transition_state():392] send defer: 2
+2022-03-08 01:00:28,746 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:28,746 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: defer
+2022-03-08 01:00:28,746 DEBUG   SenderThread:5255 [sender.py:send():235] send: stats
+2022-03-08 01:00:28,747 INFO    HandlerThread:5255 [handler.py:handle_request_defer():154] handle defer: 2
+2022-03-08 01:00:28,748 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: defer
+2022-03-08 01:00:28,748 INFO    SenderThread:5255 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-03-08 01:00:28,748 INFO    SenderThread:5255 [sender.py:transition_state():392] send defer: 3
+2022-03-08 01:00:28,749 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: defer
+2022-03-08 01:00:28,749 INFO    HandlerThread:5255 [handler.py:handle_request_defer():154] handle defer: 3
+2022-03-08 01:00:28,749 DEBUG   SenderThread:5255 [sender.py:send():235] send: summary
+2022-03-08 01:00:28,751 INFO    SenderThread:5255 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-08 01:00:28,751 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: defer
+2022-03-08 01:00:28,751 INFO    SenderThread:5255 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-03-08 01:00:28,751 INFO    SenderThread:5255 [sender.py:transition_state():392] send defer: 4
+2022-03-08 01:00:28,752 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: defer
+2022-03-08 01:00:28,752 INFO    HandlerThread:5255 [handler.py:handle_request_defer():154] handle defer: 4
+2022-03-08 01:00:28,752 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: defer
+2022-03-08 01:00:28,752 INFO    SenderThread:5255 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-03-08 01:00:28,848 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:28,961 INFO    SenderThread:5255 [sender.py:transition_state():392] send defer: 5
+2022-03-08 01:00:28,962 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:28,963 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: defer
+2022-03-08 01:00:28,963 INFO    HandlerThread:5255 [handler.py:handle_request_defer():154] handle defer: 5
+2022-03-08 01:00:28,963 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: defer
+2022-03-08 01:00:28,963 INFO    SenderThread:5255 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-03-08 01:00:28,963 INFO    SenderThread:5255 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-08 01:00:29,064 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:29,610 INFO    Thread-8  :5255 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/wandb-summary.json
+2022-03-08 01:00:29,611 INFO    SenderThread:5255 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/config.yaml
+2022-03-08 01:00:29,611 INFO    SenderThread:5255 [dir_watcher.py:finish():313] scan: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files
+2022-03-08 01:00:29,612 INFO    SenderThread:5255 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/config.yaml config.yaml
+2022-03-08 01:00:29,612 INFO    SenderThread:5255 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/wandb-summary.json wandb-summary.json
+2022-03-08 01:00:29,621 INFO    SenderThread:5255 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/requirements.txt requirements.txt
+2022-03-08 01:00:29,630 INFO    SenderThread:5255 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/conda-environment.yaml conda-environment.yaml
+2022-03-08 01:00:29,639 INFO    SenderThread:5255 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/output.log output.log
+2022-03-08 01:00:29,657 INFO    SenderThread:5255 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/wandb-metadata.json wandb-metadata.json
+2022-03-08 01:00:29,657 INFO    SenderThread:5255 [sender.py:transition_state():392] send defer: 6
+2022-03-08 01:00:29,657 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:29,657 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: defer
+2022-03-08 01:00:29,657 INFO    HandlerThread:5255 [handler.py:handle_request_defer():154] handle defer: 6
+2022-03-08 01:00:29,658 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: defer
+2022-03-08 01:00:29,659 INFO    SenderThread:5255 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-03-08 01:00:29,659 INFO    SenderThread:5255 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-08 01:00:29,762 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:29,762 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:29,866 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:29,866 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:29,972 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:29,972 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:30,076 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:30,077 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:30,180 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:30,180 INFO    Thread-16 :5255 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/conda-environment.yaml
+2022-03-08 01:00:30,180 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:30,188 INFO    Thread-13 :5255 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/config.yaml
+2022-03-08 01:00:30,193 INFO    Thread-14 :5255 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/wandb-summary.json
+2022-03-08 01:00:30,201 INFO    Thread-15 :5255 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/requirements.txt
+2022-03-08 01:00:30,217 INFO    Thread-17 :5255 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/files/output.log
+2022-03-08 01:00:30,285 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:30,286 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:30,388 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:30,388 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:30,417 INFO    Thread-7  :5255 [sender.py:transition_state():392] send defer: 7
+2022-03-08 01:00:30,418 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: defer
+2022-03-08 01:00:30,418 INFO    HandlerThread:5255 [handler.py:handle_request_defer():154] handle defer: 7
+2022-03-08 01:00:30,418 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: defer
+2022-03-08 01:00:30,418 INFO    SenderThread:5255 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-03-08 01:00:30,491 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:30,628 INFO    SenderThread:5255 [sender.py:transition_state():392] send defer: 8
+2022-03-08 01:00:30,628 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:30,629 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: defer
+2022-03-08 01:00:30,629 INFO    HandlerThread:5255 [handler.py:handle_request_defer():154] handle defer: 8
+2022-03-08 01:00:30,630 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: defer
+2022-03-08 01:00:30,630 INFO    SenderThread:5255 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-03-08 01:00:30,630 INFO    SenderThread:5255 [sender.py:transition_state():392] send defer: 9
+2022-03-08 01:00:30,631 DEBUG   SenderThread:5255 [sender.py:send():235] send: final
+2022-03-08 01:00:30,632 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: defer
+2022-03-08 01:00:30,632 DEBUG   SenderThread:5255 [sender.py:send():235] send: footer
+2022-03-08 01:00:30,632 INFO    HandlerThread:5255 [handler.py:handle_request_defer():154] handle defer: 9
+2022-03-08 01:00:30,633 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: defer
+2022-03-08 01:00:30,633 INFO    SenderThread:5255 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-03-08 01:00:30,730 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-08 01:00:30,731 DEBUG   SenderThread:5255 [sender.py:send_request():249] send_request: poll_exit
+2022-03-08 01:00:30,731 INFO    SenderThread:5255 [file_pusher.py:join():182] waiting for file pusher
+2022-03-08 01:00:31,042 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: get_summary
+2022-03-08 01:00:31,044 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: sampled_history
+2022-03-08 01:00:31,045 DEBUG   HandlerThread:5255 [handler.py:handle_request():131] handle_request: shutdown
+2022-03-08 01:00:31,045 INFO    HandlerThread:5255 [handler.py:finish():739] shutting down handler
+2022-03-08 01:00:31,632 INFO    WriterThread:5255 [datastore.py:close():281] close: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220308_010015-jgvsh4if/run-jgvsh4if.wandb
+2022-03-08 01:00:32,040 INFO    SenderThread:5255 [sender.py:finish():1075] shutting down sender
+2022-03-08 01:00:32,040 INFO    SenderThread:5255 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-08 01:00:32,040 INFO    SenderThread:5255 [file_pusher.py:join():182] waiting for file pusher
+2022-03-08 01:00:32,042 INFO    MainThread:5255 [internal.py:handle_exit():79] Internal process exited

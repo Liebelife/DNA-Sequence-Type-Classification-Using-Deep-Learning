@@ -1,0 +1,108 @@
+2022-03-09 02:02:47,822 INFO    MainThread:12877 [internal.py:wandb_internal():92] W&B internal server running at pid: 12877, started at: 2022-03-09 02:02:47.822160
+2022-03-09 02:02:47,824 DEBUG   HandlerThread:12877 [handler.py:handle_request():131] handle_request: check_version
+2022-03-09 02:02:47,825 INFO    WriterThread:12877 [datastore.py:open_for_write():77] open: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/run-2tadx374.wandb
+2022-03-09 02:02:47,829 DEBUG   SenderThread:12877 [sender.py:send():235] send: header
+2022-03-09 02:02:47,829 DEBUG   SenderThread:12877 [sender.py:send_request():249] send_request: check_version
+2022-03-09 02:02:47,901 DEBUG   SenderThread:12877 [sender.py:send():235] send: run
+2022-03-09 02:02:48,084 INFO    SenderThread:12877 [dir_watcher.py:__init__():169] watching files in: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files
+2022-03-09 02:02:48,084 INFO    SenderThread:12877 [sender.py:_start_run_threads():812] run started: 2tadx374 with start time 1646787765
+2022-03-09 02:02:48,084 DEBUG   SenderThread:12877 [sender.py:send():235] send: summary
+2022-03-09 02:02:48,085 INFO    SenderThread:12877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 02:02:48,087 DEBUG   HandlerThread:12877 [handler.py:handle_request():131] handle_request: run_start
+2022-03-09 02:02:49,087 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-summary.json
+2022-03-09 02:02:51,105 DEBUG   HandlerThread:12877 [meta.py:__init__():36] meta init
+2022-03-09 02:02:51,105 DEBUG   HandlerThread:12877 [meta.py:__init__():50] meta init done
+2022-03-09 02:02:51,105 DEBUG   HandlerThread:12877 [meta.py:probe():210] probe
+2022-03-09 02:02:51,145 DEBUG   HandlerThread:12877 [meta.py:_setup_git():200] setup git
+2022-03-09 02:02:51,189 DEBUG   HandlerThread:12877 [meta.py:_setup_git():207] setup git done
+2022-03-09 02:02:51,190 DEBUG   HandlerThread:12877 [meta.py:_save_pip():54] save pip
+2022-03-09 02:02:51,191 DEBUG   HandlerThread:12877 [meta.py:_save_pip():68] save pip done
+2022-03-09 02:02:51,192 DEBUG   HandlerThread:12877 [meta.py:_save_conda():75] save conda
+2022-03-09 02:02:52,093 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/requirements.txt
+2022-03-09 02:02:52,096 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/conda-environment.yaml
+2022-03-09 02:02:54,094 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log
+2022-03-09 02:02:55,532 DEBUG   HandlerThread:12877 [meta.py:_save_conda():85] save conda done
+2022-03-09 02:02:55,533 DEBUG   HandlerThread:12877 [meta.py:probe():248] probe done
+2022-03-09 02:02:55,545 DEBUG   HandlerThread:12877 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 02:02:55,545 DEBUG   SenderThread:12877 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 02:02:55,696 DEBUG   SenderThread:12877 [sender.py:send():235] send: config
+2022-03-09 02:02:55,697 DEBUG   SenderThread:12877 [sender.py:send():235] send: metric
+2022-03-09 02:02:55,698 DEBUG   SenderThread:12877 [sender.py:send():235] send: metric
+2022-03-09 02:02:55,698 WARNING SenderThread:12877 [sender.py:send_metric():902] Seen metric with glob (shouldnt happen)
+2022-03-09 02:02:55,698 DEBUG   SenderThread:12877 [sender.py:send():235] send: files
+2022-03-09 02:02:55,698 INFO    SenderThread:12877 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-03-09 02:02:56,096 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/conda-environment.yaml
+2022-03-09 02:02:56,097 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log
+2022-03-09 02:02:56,097 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-metadata.json
+2022-03-09 02:02:56,298 INFO    Thread-11 :12877 [upload_job.py:push():137] Uploaded file /var/tmp/pbs.38430.lich-compute.vscht.cz/tmpow_knt8uwandb/2v6s11an-wandb-metadata.json
+2022-03-09 02:02:56,616 DEBUG   SenderThread:12877 [sender.py:send():235] send: metric
+2022-03-09 02:02:56,616 DEBUG   SenderThread:12877 [sender.py:send():235] send: metric
+2022-03-09 02:02:56,616 DEBUG   SenderThread:12877 [sender.py:send():235] send: metric
+2022-03-09 02:02:56,617 DEBUG   SenderThread:12877 [sender.py:send():235] send: metric
+2022-03-09 02:02:56,617 DEBUG   SenderThread:12877 [sender.py:send():235] send: history
+2022-03-09 02:02:56,617 DEBUG   SenderThread:12877 [sender.py:send():235] send: summary
+2022-03-09 02:02:56,619 INFO    SenderThread:12877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 02:02:57,097 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-summary.json
+2022-03-09 02:02:58,099 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log
+2022-03-09 02:02:59,475 DEBUG   SenderThread:12877 [sender.py:send():235] send: history
+2022-03-09 02:02:59,475 DEBUG   SenderThread:12877 [sender.py:send():235] send: summary
+2022-03-09 02:02:59,477 INFO    SenderThread:12877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 02:03:00,101 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-summary.json
+2022-03-09 02:03:02,104 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log
+2022-03-09 02:03:02,271 DEBUG   SenderThread:12877 [sender.py:send():235] send: history
+2022-03-09 02:03:02,271 DEBUG   SenderThread:12877 [sender.py:send():235] send: summary
+2022-03-09 02:03:02,273 INFO    SenderThread:12877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 02:03:03,105 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-summary.json
+2022-03-09 02:03:04,107 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log
+2022-03-09 02:03:04,975 DEBUG   SenderThread:12877 [sender.py:send():235] send: history
+2022-03-09 02:03:04,975 DEBUG   SenderThread:12877 [sender.py:send():235] send: summary
+2022-03-09 02:03:04,977 INFO    SenderThread:12877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 02:03:05,109 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-summary.json
+2022-03-09 02:03:06,110 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log
+2022-03-09 02:03:07,660 DEBUG   SenderThread:12877 [sender.py:send():235] send: history
+2022-03-09 02:03:07,661 DEBUG   SenderThread:12877 [sender.py:send():235] send: summary
+2022-03-09 02:03:07,667 INFO    SenderThread:12877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 02:03:08,112 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-summary.json
+2022-03-09 02:03:10,114 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log
+2022-03-09 02:03:10,698 DEBUG   HandlerThread:12877 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 02:03:10,698 DEBUG   SenderThread:12877 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 02:03:10,850 DEBUG   SenderThread:12877 [sender.py:send():235] send: history
+2022-03-09 02:03:10,850 DEBUG   SenderThread:12877 [sender.py:send():235] send: summary
+2022-03-09 02:03:10,854 INFO    SenderThread:12877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 02:03:11,115 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-summary.json
+2022-03-09 02:03:12,117 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log
+2022-03-09 02:03:12,599 WARNING MainThread:12877 [internal.py:wandb_internal():152] Internal process interrupt: 1
+2022-03-09 02:03:13,751 DEBUG   HandlerThread:12877 [handler.py:handle_request():131] handle_request: pause
+2022-03-09 02:03:13,751 INFO    HandlerThread:12877 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-03-09 02:03:13,839 DEBUG   SenderThread:12877 [sender.py:send():235] send: stats
+2022-03-09 02:03:18,124 INFO    Thread-8  :12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/config.yaml
+2022-03-09 02:03:20,484 DEBUG   HandlerThread:12877 [handler.py:handle_request():131] handle_request: resume
+2022-03-09 02:03:20,484 INFO    HandlerThread:12877 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-03-09 02:03:20,489 DEBUG   HandlerThread:12877 [handler.py:handle_request():131] handle_request: pause
+2022-03-09 02:03:20,489 INFO    HandlerThread:12877 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-03-09 02:03:20,656 DEBUG   SenderThread:12877 [sender.py:send():235] send: stats
+2022-03-09 02:03:25,852 DEBUG   HandlerThread:12877 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 02:03:25,853 DEBUG   SenderThread:12877 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 02:03:33,499 WARNING MainThread:12877 [internal.py:wandb_internal():152] Internal process interrupt: 2
+2022-03-09 02:03:33,499 ERROR   MainThread:12877 [internal.py:wandb_internal():155] Internal process interrupted.
+2022-03-09 02:03:33,659 INFO    WriterThread:12877 [datastore.py:close():281] close: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/run-2tadx374.wandb
+2022-03-09 02:03:33,837 INFO    HandlerThread:12877 [handler.py:finish():739] shutting down handler
+2022-03-09 02:03:33,838 DEBUG   SenderThread:12877 [sender.py:send():235] send: telemetry
+2022-03-09 02:03:33,838 INFO    SenderThread:12877 [sender.py:finish():1075] shutting down sender
+2022-03-09 02:03:33,838 INFO    SenderThread:12877 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-09 02:03:34,130 INFO    SenderThread:12877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log
+2022-03-09 02:03:34,131 INFO    SenderThread:12877 [dir_watcher.py:finish():313] scan: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files
+2022-03-09 02:03:34,131 INFO    SenderThread:12877 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/config.yaml config.yaml
+2022-03-09 02:03:34,131 INFO    SenderThread:12877 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-summary.json wandb-summary.json
+2022-03-09 02:03:34,132 INFO    SenderThread:12877 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/requirements.txt requirements.txt
+2022-03-09 02:03:34,132 INFO    SenderThread:12877 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/conda-environment.yaml conda-environment.yaml
+2022-03-09 02:03:34,132 INFO    SenderThread:12877 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log output.log
+2022-03-09 02:03:34,132 INFO    SenderThread:12877 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-metadata.json wandb-metadata.json
+2022-03-09 02:03:34,132 INFO    SenderThread:12877 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-09 02:03:34,132 INFO    SenderThread:12877 [file_pusher.py:join():182] waiting for file pusher
+2022-03-09 02:03:34,699 INFO    Thread-15 :12877 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/requirements.txt
+2022-03-09 02:03:34,704 INFO    Thread-14 :12877 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/wandb-summary.json
+2022-03-09 02:03:34,706 INFO    Thread-16 :12877 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/conda-environment.yaml
+2022-03-09 02:03:34,718 INFO    Thread-13 :12877 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/config.yaml
+2022-03-09 02:03:34,748 INFO    Thread-17 :12877 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_020245-2tadx374/files/output.log
+2022-03-09 02:03:35,292 INFO    MainThread:12877 [internal.py:handle_exit():79] Internal process exited

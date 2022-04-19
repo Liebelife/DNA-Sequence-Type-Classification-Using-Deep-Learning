@@ -1,0 +1,77 @@
+2022-03-07 17:10:53,053 INFO    MainThread:38218 [internal.py:wandb_internal():92] W&B internal server running at pid: 38218, started at: 2022-03-07 17:10:53.053130
+2022-03-07 17:10:53,056 INFO    WriterThread:38218 [datastore.py:open_for_write():77] open: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/run-3pisbwcc.wandb
+2022-03-07 17:10:53,058 DEBUG   HandlerThread:38218 [handler.py:handle_request():131] handle_request: check_version
+2022-03-07 17:10:53,062 DEBUG   SenderThread:38218 [sender.py:send():235] send: header
+2022-03-07 17:10:53,062 DEBUG   SenderThread:38218 [sender.py:send_request():249] send_request: check_version
+2022-03-07 17:10:53,146 DEBUG   SenderThread:38218 [sender.py:send():235] send: run
+2022-03-07 17:10:53,360 INFO    SenderThread:38218 [dir_watcher.py:__init__():169] watching files in: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files
+2022-03-07 17:10:53,360 INFO    SenderThread:38218 [sender.py:_start_run_threads():812] run started: 3pisbwcc with start time 1646669451
+2022-03-07 17:10:53,360 DEBUG   SenderThread:38218 [sender.py:send():235] send: summary
+2022-03-07 17:10:53,361 INFO    SenderThread:38218 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-07 17:10:53,362 DEBUG   HandlerThread:38218 [handler.py:handle_request():131] handle_request: run_start
+2022-03-07 17:10:54,395 INFO    Thread-8  :38218 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/wandb-summary.json
+2022-03-07 17:10:55,369 DEBUG   HandlerThread:38218 [meta.py:__init__():36] meta init
+2022-03-07 17:10:55,369 DEBUG   HandlerThread:38218 [meta.py:__init__():50] meta init done
+2022-03-07 17:10:55,369 DEBUG   HandlerThread:38218 [meta.py:probe():210] probe
+2022-03-07 17:10:55,376 DEBUG   HandlerThread:38218 [meta.py:_setup_git():200] setup git
+2022-03-07 17:10:55,409 DEBUG   HandlerThread:38218 [meta.py:_setup_git():207] setup git done
+2022-03-07 17:10:55,409 DEBUG   HandlerThread:38218 [meta.py:_save_pip():54] save pip
+2022-03-07 17:10:55,411 DEBUG   HandlerThread:38218 [meta.py:_save_pip():68] save pip done
+2022-03-07 17:10:55,411 DEBUG   HandlerThread:38218 [meta.py:_save_conda():75] save conda
+2022-03-07 17:10:56,393 INFO    Thread-8  :38218 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/requirements.txt
+2022-03-07 17:10:56,396 INFO    Thread-8  :38218 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/conda-environment.yaml
+2022-03-07 17:10:58,394 INFO    Thread-8  :38218 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/output.log
+2022-03-07 17:10:59,342 DEBUG   HandlerThread:38218 [meta.py:_save_conda():85] save conda done
+2022-03-07 17:10:59,342 DEBUG   HandlerThread:38218 [meta.py:probe():248] probe done
+2022-03-07 17:10:59,349 DEBUG   HandlerThread:38218 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-07 17:10:59,350 DEBUG   SenderThread:38218 [sender.py:send_request():249] send_request: stop_status
+2022-03-07 17:10:59,395 INFO    Thread-8  :38218 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/conda-environment.yaml
+2022-03-07 17:10:59,396 INFO    Thread-8  :38218 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/wandb-metadata.json
+2022-03-07 17:10:59,500 DEBUG   SenderThread:38218 [sender.py:send():235] send: files
+2022-03-07 17:10:59,500 INFO    SenderThread:38218 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-03-07 17:11:00,098 INFO    Thread-11 :38218 [upload_job.py:push():137] Uploaded file /var/tmp/pbs.38430.lich-compute.vscht.cz/tmp6bt61w9gwandb/24fateif-wandb-metadata.json
+2022-03-07 17:11:00,397 INFO    Thread-8  :38218 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/output.log
+2022-03-07 17:11:02,508 DEBUG   SenderThread:38218 [sender.py:send():235] send: config
+2022-03-07 17:11:02,510 DEBUG   SenderThread:38218 [sender.py:send():235] send: metric
+2022-03-07 17:11:02,511 DEBUG   SenderThread:38218 [sender.py:send():235] send: metric
+2022-03-07 17:11:02,511 WARNING SenderThread:38218 [sender.py:send_metric():902] Seen metric with glob (shouldnt happen)
+2022-03-07 17:11:04,402 INFO    Thread-8  :38218 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/output.log
+2022-03-07 17:11:13,413 INFO    Thread-8  :38218 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/output.log
+2022-03-07 17:11:14,517 DEBUG   HandlerThread:38218 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-07 17:11:14,517 DEBUG   SenderThread:38218 [sender.py:send_request():249] send_request: stop_status
+2022-03-07 17:11:24,424 INFO    Thread-8  :38218 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/config.yaml
+2022-03-07 17:11:24,734 DEBUG   SenderThread:38218 [sender.py:send():235] send: stats
+2022-03-07 17:11:30,124 DEBUG   HandlerThread:38218 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-07 17:11:30,125 DEBUG   SenderThread:38218 [sender.py:send_request():249] send_request: stop_status
+2022-03-07 17:11:45,360 DEBUG   HandlerThread:38218 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-07 17:11:45,360 DEBUG   SenderThread:38218 [sender.py:send_request():249] send_request: stop_status
+2022-03-07 17:11:55,837 DEBUG   SenderThread:38218 [sender.py:send():235] send: stats
+2022-03-07 17:12:00,575 DEBUG   HandlerThread:38218 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-07 17:12:00,576 DEBUG   SenderThread:38218 [sender.py:send_request():249] send_request: stop_status
+2022-03-07 17:12:15,782 DEBUG   HandlerThread:38218 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-07 17:12:15,783 DEBUG   SenderThread:38218 [sender.py:send_request():249] send_request: stop_status
+2022-03-07 17:12:23,462 WARNING MainThread:38218 [internal.py:wandb_internal():152] Internal process interrupt: 1
+2022-03-07 17:12:25,785 DEBUG   HandlerThread:38218 [handler.py:handle_request():131] handle_request: pause
+2022-03-07 17:12:25,786 INFO    HandlerThread:38218 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-03-07 17:12:25,937 DEBUG   SenderThread:38218 [sender.py:send():235] send: stats
+2022-03-07 17:12:30,470 WARNING MainThread:38218 [internal.py:is_dead():381] Internal process exiting, parent pid 38192 disappeared
+2022-03-07 17:12:30,471 ERROR   MainThread:38218 [internal.py:wandb_internal():148] Internal process shutdown.
+2022-03-07 17:12:30,939 INFO    WriterThread:38218 [datastore.py:close():281] close: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/run-3pisbwcc.wandb
+2022-03-07 17:12:30,939 INFO    SenderThread:38218 [sender.py:finish():1075] shutting down sender
+2022-03-07 17:12:30,940 INFO    SenderThread:38218 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-07 17:12:30,942 INFO    HandlerThread:38218 [handler.py:finish():739] shutting down handler
+2022-03-07 17:12:31,433 INFO    SenderThread:38218 [dir_watcher.py:finish():313] scan: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files
+2022-03-07 17:12:31,434 INFO    SenderThread:38218 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/config.yaml config.yaml
+2022-03-07 17:12:31,434 INFO    SenderThread:38218 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/wandb-summary.json wandb-summary.json
+2022-03-07 17:12:31,447 INFO    SenderThread:38218 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/requirements.txt requirements.txt
+2022-03-07 17:12:31,449 INFO    SenderThread:38218 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/conda-environment.yaml conda-environment.yaml
+2022-03-07 17:12:31,458 INFO    SenderThread:38218 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/output.log output.log
+2022-03-07 17:12:31,488 INFO    SenderThread:38218 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/wandb-metadata.json wandb-metadata.json
+2022-03-07 17:12:31,488 INFO    SenderThread:38218 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-07 17:12:31,489 INFO    SenderThread:38218 [file_pusher.py:join():182] waiting for file pusher
+2022-03-07 17:12:32,029 INFO    Thread-14 :38218 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/requirements.txt
+2022-03-07 17:12:32,056 INFO    Thread-16 :38218 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/output.log
+2022-03-07 17:12:32,058 INFO    Thread-12 :38218 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/config.yaml
+2022-03-07 17:12:32,060 INFO    Thread-15 :38218 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/conda-environment.yaml
+2022-03-07 17:12:32,075 INFO    Thread-13 :38218 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220307_171051-3pisbwcc/files/wandb-summary.json
+2022-03-07 17:12:32,688 INFO    MainThread:38218 [internal.py:handle_exit():79] Internal process exited

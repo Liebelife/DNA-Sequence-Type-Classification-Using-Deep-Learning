@@ -1,0 +1,346 @@
+2022-03-09 01:45:56,895 INFO    MainThread:33627 [internal.py:wandb_internal():92] W&B internal server running at pid: 33627, started at: 2022-03-09 01:45:56.895241
+2022-03-09 01:45:56,897 INFO    WriterThread:33627 [datastore.py:open_for_write():77] open: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/run-3axvb7h0.wandb
+2022-03-09 01:45:56,898 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: check_version
+2022-03-09 01:45:56,900 DEBUG   SenderThread:33627 [sender.py:send():235] send: header
+2022-03-09 01:45:56,900 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: check_version
+2022-03-09 01:45:56,972 DEBUG   SenderThread:33627 [sender.py:send():235] send: run
+2022-03-09 01:45:57,149 INFO    SenderThread:33627 [dir_watcher.py:__init__():169] watching files in: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files
+2022-03-09 01:45:57,149 INFO    SenderThread:33627 [sender.py:_start_run_threads():812] run started: 3axvb7h0 with start time 1646786755
+2022-03-09 01:45:57,149 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:45:57,150 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:45:57,151 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: run_start
+2022-03-09 01:45:58,184 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:45:59,278 DEBUG   HandlerThread:33627 [meta.py:__init__():36] meta init
+2022-03-09 01:45:59,278 DEBUG   HandlerThread:33627 [meta.py:__init__():50] meta init done
+2022-03-09 01:45:59,278 DEBUG   HandlerThread:33627 [meta.py:probe():210] probe
+2022-03-09 01:45:59,287 DEBUG   HandlerThread:33627 [meta.py:_setup_git():200] setup git
+2022-03-09 01:45:59,332 DEBUG   HandlerThread:33627 [meta.py:_setup_git():207] setup git done
+2022-03-09 01:45:59,333 DEBUG   HandlerThread:33627 [meta.py:_save_pip():54] save pip
+2022-03-09 01:45:59,334 DEBUG   HandlerThread:33627 [meta.py:_save_pip():68] save pip done
+2022-03-09 01:45:59,334 DEBUG   HandlerThread:33627 [meta.py:_save_conda():75] save conda
+2022-03-09 01:46:00,184 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/requirements.txt
+2022-03-09 01:46:00,186 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/conda-environment.yaml
+2022-03-09 01:46:02,185 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:46:03,187 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/conda-environment.yaml
+2022-03-09 01:46:03,238 DEBUG   HandlerThread:33627 [meta.py:_save_conda():85] save conda done
+2022-03-09 01:46:03,238 DEBUG   HandlerThread:33627 [meta.py:probe():248] probe done
+2022-03-09 01:46:03,243 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:46:03,244 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:46:03,393 DEBUG   SenderThread:33627 [sender.py:send():235] send: files
+2022-03-09 01:46:03,393 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-03-09 01:46:03,923 INFO    Thread-11 :33627 [upload_job.py:push():137] Uploaded file /var/tmp/pbs.38430.lich-compute.vscht.cz/tmpyzv4rf0vwandb/2jt6rtcf-wandb-metadata.json
+2022-03-09 01:46:04,188 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-metadata.json
+2022-03-09 01:46:05,190 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:46:07,472 DEBUG   SenderThread:33627 [sender.py:send():235] send: config
+2022-03-09 01:46:07,475 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:07,476 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:07,476 WARNING SenderThread:33627 [sender.py:send_metric():902] Seen metric with glob (shouldnt happen)
+2022-03-09 01:46:09,194 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:46:18,417 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:46:18,417 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:46:19,204 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:46:28,212 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/config.yaml
+2022-03-09 01:46:28,807 DEBUG   SenderThread:33627 [sender.py:send():235] send: stats
+2022-03-09 01:46:33,603 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:46:33,606 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:46:35,218 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:46:36,851 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:36,851 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:36,851 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:36,851 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:36,851 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:46:36,851 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:46:36,856 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:46:37,220 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:46:48,801 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:46:48,802 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:46:53,516 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:46:53,517 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:46:53,521 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:46:54,239 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:46:55,241 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:46:58,615 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,615 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,616 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,616 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,616 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,616 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,616 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,616 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,616 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,616 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,616 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,616 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,617 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,618 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,619 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,620 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,621 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,622 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,623 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,623 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,623 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,623 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,623 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,623 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:46:58,623 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:46:58,627 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:46:58,632 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:46:59,244 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/config.yaml
+2022-03-09 01:46:59,244 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:00,166 DEBUG   SenderThread:33627 [sender.py:send():235] send: stats
+2022-03-09 01:47:01,082 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:47:01,083 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:47:01,094 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:47:01,246 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:47:01,247 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:03,959 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:47:03,959 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:47:08,137 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:47:08,138 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:47:08,147 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:47:08,256 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:09,258 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:47:15,713 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:47:15,713 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:47:15,721 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:47:16,268 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:17,269 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:47:19,042 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:47:19,046 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:47:19,054 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:47:19,131 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:47:19,132 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:47:19,271 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:22,693 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:47:22,694 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:47:22,699 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:47:23,276 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:47:23,276 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:29,282 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/config.yaml
+2022-03-09 01:47:29,761 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:47:29,762 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:47:29,769 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:47:30,282 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:31,284 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:47:31,624 DEBUG   SenderThread:33627 [sender.py:send():235] send: stats
+2022-03-09 01:47:34,314 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:47:34,315 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:47:37,027 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:47:37,028 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:47:37,033 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:47:37,291 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:47:37,292 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:39,086 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:47:39,090 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:47:39,095 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:47:39,293 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:44,262 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:47:44,263 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:47:44,273 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:47:44,298 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:45,300 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:47:49,472 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:47:49,473 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:47:49,628 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:47:49,629 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:47:49,629 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:47:49,629 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:47:49,629 DEBUG   SenderThread:33627 [sender.py:send():235] send: metric
+2022-03-09 01:47:49,629 DEBUG   SenderThread:33627 [sender.py:send():235] send: history
+2022-03-09 01:47:49,629 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:47:49,635 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:47:50,305 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:47:51,306 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:47:52,966 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: pause
+2022-03-09 01:47:52,966 INFO    HandlerThread:33627 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-03-09 01:47:53,097 DEBUG   SenderThread:33627 [sender.py:send():235] send: stats
+2022-03-09 01:48:00,372 INFO    Thread-8  :33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/config.yaml
+2022-03-09 01:48:04,629 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:48:04,630 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:48:19,777 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:48:19,778 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:48:34,926 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-09 01:48:34,927 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: stop_status
+2022-03-09 01:48:38,390 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: resume
+2022-03-09 01:48:38,391 INFO    HandlerThread:33627 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-03-09 01:48:38,406 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: pause
+2022-03-09 01:48:38,406 INFO    HandlerThread:33627 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-03-09 01:48:38,590 DEBUG   SenderThread:33627 [sender.py:send():235] send: stats
+2022-03-09 01:48:41,423 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: resume
+2022-03-09 01:48:41,424 INFO    HandlerThread:33627 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-03-09 01:48:41,721 DEBUG   SenderThread:33627 [sender.py:send():235] send: telemetry
+2022-03-09 01:48:41,721 DEBUG   SenderThread:33627 [sender.py:send():235] send: exit
+2022-03-09 01:48:41,721 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:41,722 INFO    SenderThread:33627 [sender.py:send_exit():371] handling exit code: 0
+2022-03-09 01:48:41,725 INFO    SenderThread:33627 [sender.py:send_exit():373] handling runtime: 116
+2022-03-09 01:48:41,730 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:48:41,730 INFO    SenderThread:33627 [sender.py:send_exit():379] send defer
+2022-03-09 01:48:41,731 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:41,731 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: defer
+2022-03-09 01:48:41,731 INFO    HandlerThread:33627 [handler.py:handle_request_defer():154] handle defer: 0
+2022-03-09 01:48:41,732 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: defer
+2022-03-09 01:48:41,732 INFO    SenderThread:33627 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-03-09 01:48:41,732 INFO    SenderThread:33627 [sender.py:transition_state():392] send defer: 1
+2022-03-09 01:48:41,732 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: defer
+2022-03-09 01:48:41,732 INFO    HandlerThread:33627 [handler.py:handle_request_defer():154] handle defer: 1
+2022-03-09 01:48:41,836 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: defer
+2022-03-09 01:48:41,836 INFO    SenderThread:33627 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-03-09 01:48:41,836 INFO    SenderThread:33627 [sender.py:transition_state():392] send defer: 2
+2022-03-09 01:48:41,836 DEBUG   SenderThread:33627 [sender.py:send():235] send: stats
+2022-03-09 01:48:41,837 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: defer
+2022-03-09 01:48:41,837 INFO    HandlerThread:33627 [handler.py:handle_request_defer():154] handle defer: 2
+2022-03-09 01:48:41,837 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: defer
+2022-03-09 01:48:41,837 INFO    SenderThread:33627 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-03-09 01:48:41,838 INFO    SenderThread:33627 [sender.py:transition_state():392] send defer: 3
+2022-03-09 01:48:41,838 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: defer
+2022-03-09 01:48:41,838 INFO    HandlerThread:33627 [handler.py:handle_request_defer():154] handle defer: 3
+2022-03-09 01:48:41,840 DEBUG   SenderThread:33627 [sender.py:send():235] send: summary
+2022-03-09 01:48:41,840 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:41,846 INFO    SenderThread:33627 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-09 01:48:41,846 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: defer
+2022-03-09 01:48:41,846 INFO    SenderThread:33627 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-03-09 01:48:41,846 INFO    SenderThread:33627 [sender.py:transition_state():392] send defer: 4
+2022-03-09 01:48:41,846 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:41,846 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: defer
+2022-03-09 01:48:41,846 INFO    HandlerThread:33627 [handler.py:handle_request_defer():154] handle defer: 4
+2022-03-09 01:48:41,847 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: defer
+2022-03-09 01:48:41,847 INFO    SenderThread:33627 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-03-09 01:48:41,948 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:42,127 INFO    SenderThread:33627 [sender.py:transition_state():392] send defer: 5
+2022-03-09 01:48:42,128 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:42,128 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: defer
+2022-03-09 01:48:42,128 INFO    HandlerThread:33627 [handler.py:handle_request_defer():154] handle defer: 5
+2022-03-09 01:48:42,128 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: defer
+2022-03-09 01:48:42,128 INFO    SenderThread:33627 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-03-09 01:48:42,128 INFO    SenderThread:33627 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-09 01:48:42,229 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:42,383 INFO    SenderThread:33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:48:42,384 INFO    SenderThread:33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/config.yaml
+2022-03-09 01:48:42,384 INFO    SenderThread:33627 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:48:42,384 INFO    SenderThread:33627 [dir_watcher.py:finish():313] scan: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files
+2022-03-09 01:48:42,384 INFO    SenderThread:33627 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/config.yaml config.yaml
+2022-03-09 01:48:42,384 INFO    SenderThread:33627 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json wandb-summary.json
+2022-03-09 01:48:42,384 INFO    SenderThread:33627 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/requirements.txt requirements.txt
+2022-03-09 01:48:42,385 INFO    SenderThread:33627 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/conda-environment.yaml conda-environment.yaml
+2022-03-09 01:48:42,385 INFO    SenderThread:33627 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log output.log
+2022-03-09 01:48:42,391 INFO    SenderThread:33627 [dir_watcher.py:finish():327] scan save: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-metadata.json wandb-metadata.json
+2022-03-09 01:48:42,391 INFO    SenderThread:33627 [sender.py:transition_state():392] send defer: 6
+2022-03-09 01:48:42,391 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:42,392 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: defer
+2022-03-09 01:48:42,396 INFO    HandlerThread:33627 [handler.py:handle_request_defer():154] handle defer: 6
+2022-03-09 01:48:42,397 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: defer
+2022-03-09 01:48:42,404 INFO    SenderThread:33627 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-03-09 01:48:42,404 INFO    SenderThread:33627 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-09 01:48:42,494 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:42,494 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:42,597 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:42,598 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:42,701 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:42,702 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:42,806 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:42,806 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:42,908 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:42,909 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:42,936 INFO    Thread-15 :33627 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/wandb-summary.json
+2022-03-09 01:48:42,981 INFO    Thread-18 :33627 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/output.log
+2022-03-09 01:48:42,982 INFO    Thread-14 :33627 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/config.yaml
+2022-03-09 01:48:42,985 INFO    Thread-16 :33627 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/requirements.txt
+2022-03-09 01:48:42,987 INFO    Thread-17 :33627 [upload_job.py:push():137] Uploaded file /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/files/conda-environment.yaml
+2022-03-09 01:48:43,010 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:43,011 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:43,113 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:43,113 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:43,188 INFO    Thread-7  :33627 [sender.py:transition_state():392] send defer: 7
+2022-03-09 01:48:43,189 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: defer
+2022-03-09 01:48:43,189 INFO    HandlerThread:33627 [handler.py:handle_request_defer():154] handle defer: 7
+2022-03-09 01:48:43,189 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: defer
+2022-03-09 01:48:43,189 INFO    SenderThread:33627 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-03-09 01:48:43,216 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:43,958 INFO    SenderThread:33627 [sender.py:transition_state():392] send defer: 8
+2022-03-09 01:48:43,958 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:43,959 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: defer
+2022-03-09 01:48:43,959 INFO    HandlerThread:33627 [handler.py:handle_request_defer():154] handle defer: 8
+2022-03-09 01:48:43,959 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: defer
+2022-03-09 01:48:43,960 INFO    SenderThread:33627 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-03-09 01:48:43,960 INFO    SenderThread:33627 [sender.py:transition_state():392] send defer: 9
+2022-03-09 01:48:43,961 DEBUG   SenderThread:33627 [sender.py:send():235] send: final
+2022-03-09 01:48:43,961 DEBUG   SenderThread:33627 [sender.py:send():235] send: footer
+2022-03-09 01:48:43,961 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: defer
+2022-03-09 01:48:43,962 INFO    HandlerThread:33627 [handler.py:handle_request_defer():154] handle defer: 9
+2022-03-09 01:48:43,962 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: defer
+2022-03-09 01:48:43,962 INFO    SenderThread:33627 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-03-09 01:48:44,061 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-09 01:48:44,062 DEBUG   SenderThread:33627 [sender.py:send_request():249] send_request: poll_exit
+2022-03-09 01:48:44,062 INFO    SenderThread:33627 [file_pusher.py:join():182] waiting for file pusher
+2022-03-09 01:48:44,385 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: get_summary
+2022-03-09 01:48:44,391 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: sampled_history
+2022-03-09 01:48:44,392 DEBUG   HandlerThread:33627 [handler.py:handle_request():131] handle_request: shutdown
+2022-03-09 01:48:44,392 INFO    HandlerThread:33627 [handler.py:finish():739] shutting down handler
+2022-03-09 01:48:44,961 INFO    WriterThread:33627 [datastore.py:close():281] close: /home/lieberze/DP/Thesis/06_adapter/wandb/run-20220309_014555-3axvb7h0/run-3axvb7h0.wandb
+2022-03-09 01:48:45,384 INFO    SenderThread:33627 [sender.py:finish():1075] shutting down sender
+2022-03-09 01:48:45,384 INFO    SenderThread:33627 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-09 01:48:45,384 INFO    SenderThread:33627 [file_pusher.py:join():182] waiting for file pusher
+2022-03-09 01:48:45,387 INFO    MainThread:33627 [internal.py:handle_exit():79] Internal process exited

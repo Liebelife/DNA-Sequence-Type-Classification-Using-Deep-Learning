@@ -1,0 +1,111 @@
+total_optimization_steps: 4425
+how many 'eval_steps' to set: 442
+how many steps in each evaluation stop: 31
+hence in total: 13702 steps for the whole evaluation
+loading configuration file /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4/config.json
+Model config RobertaConfig {
+  "adapters": {
+    "adapters": {},
+    "config_map": {},
+    "fusion_config_map": {},
+    "fusions": {}
+  },
+  "architectures": [
+    "RobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 6,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.11.3",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 5000
+}
+loading weights file /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4/pytorch_model.bin
+Some weights of the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4 were not used when initializing RobertaModelWithHeads: ['lm_head.layer_norm.weight', 'lm_head.layer_norm.bias', 'lm_head.bias', 'lm_head.dense.weight', 'lm_head.dense.bias']
+- This IS expected if you are initializing RobertaModelWithHeads from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModelWithHeads from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModelWithHeads were not initialized from the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4 and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Adding adapter 'adapter_batchsize_32'.
+Adding head 'adapter_batchsize_32' with config {'head_type': 'classification', 'num_labels': 3, 'layers': 2, 'activation_function': 'tanh', 'label2id': {'exon': 0, 'intron': 1, 'intergenic': 2}, 'use_pooler': False, 'bias': True}.
+PyTorch: setting up devices
+***** Running training *****
+  Num examples = 85000
+  Num Epochs = 5
+  Instantaneous batch size per device = 32
+  Total train batch size (w. parallel, distributed & accumulation) = 96
+  Gradient Accumulation steps = 1
+  Total optimization steps = 4430
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running Prediction *****
+  Num examples = 15000
+  Batch size = 96
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 96
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'acc': 0.5635333333333333, 'f1_weighted': 0.563621789165001, 'report':               precision    recall  f1-score       support
+0              0.739169  0.665340  0.700314   5026.000000
+1              0.463210  0.409282  0.434579   4999.000000
+2              0.505529  0.615678  0.555193   4975.000000
+accuracy       0.563533  0.563533  0.563533      0.563533
+macro avg      0.569303  0.563433  0.563362  15000.000000
+weighted avg   0.569711  0.563533  0.563622  15000.000000} {'eval_runtime': 30.2116, 'eval_samples_per_second': 496.499, 'eval_steps_per_second': 5.197, 'epoch': 5.0}
+Saving model checkpoint to adapter_optimize
+Configuration saved in adapter_optimize/adapter_batchsize_32/adapter_config.json
+Module weights saved in adapter_optimize/adapter_batchsize_32/pytorch_adapter.bin
+Configuration saved in adapter_optimize/adapter_batchsize_32/head_config.json
+Module weights saved in adapter_optimize/adapter_batchsize_32/pytorch_model_head.bin
+Configuration saved in adapter_optimize/adapter_batchsize_32/head_config.json
+Module weights saved in adapter_optimize/adapter_batchsize_32/pytorch_model_head.bin
+Configuration saved in adapter_optimize/adapter_batchsize_32/head_config.json
+Module weights saved in adapter_optimize/adapter_batchsize_32/pytorch_model_head.bin

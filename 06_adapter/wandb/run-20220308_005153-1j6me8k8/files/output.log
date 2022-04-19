@@ -1,0 +1,174 @@
+total_optimization_steps: 19
+how many 'eval_steps' to set: 2
+how many steps in each evaluation stop: 2
+hence in total: 4 steps for the whole evaluation
+0         intron
+1     intergenic
+2         intron
+3         intron
+4         intron
+         ...
+95          exon
+96        intron
+97    intergenic
+98          exon
+99          exon
+Name: type, Length: 100, dtype: object
+[array([[-0.19084993,  0.00724137,  0.18675184],
+       [-0.25704822, -0.00946787,  0.07164945],
+       [-0.24662295, -0.03457384,  0.14355393],
+       [-0.25652915, -0.0194868 ,  0.08323671],
+       [-0.24139081, -0.04419619,  0.11873586],
+       [-0.18466718,  0.03165039,  0.05437667],
+       [-0.19728994, -0.08748525,  0.03622483],
+       [-0.24560371, -0.04536407,  0.1351933 ],
+       [-0.22740927,  0.00912869,  0.20802693],
+       [-0.14110759, -0.08759975,  0.09644262],
+       [-0.28760037, -0.0267797 ,  0.1517825 ],
+       [-0.24137256,  0.0218341 ,  0.14547329],
+       [-0.20522249,  0.00377277,  0.1479418 ],
+       [-0.23589396, -0.03360734,  0.12420522],
+       [-0.24050975, -0.05714795,  0.10536486],
+       [-0.2862281 , -0.03187779,  0.1071741 ],
+       [-0.28459287,  0.07675202,  0.02867818],
+       [-0.29057702,  0.11047709, -0.06097253],
+       [-0.2734803 , -0.04858573,  0.16327433],
+       [-0.15509209, -0.01105958,  0.0334765 ],
+       [-0.24084416, -0.03073905,  0.11462613],
+       [-0.3206088 , -0.02060893,  0.09790654],
+       [-0.26823455, -0.06857279,  0.11869386],
+       [-0.23410968, -0.03417619,  0.03963254],
+       [-0.2915593 , -0.00914301,  0.09248536],
+       [-0.22505748, -0.04112487,  0.09834704],
+       [-0.12425323, -0.07796875,  0.09529772],
+       [-0.1278508 ,  0.04082429,  0.01581402],
+       [-0.18563409, -0.09814824, -0.02891715],
+       [-0.26594567, -0.0311939 ,  0.07616209],
+       [-0.2328572 , -0.06031656,  0.12549096],
+       [-0.26837954,  0.03333429,  0.08502392],
+       [-0.1342403 ,  0.01234076,  0.04456485],
+       [-0.29748994,  0.00913166,  0.08490462],
+       [-0.14712244, -0.1003304 , -0.13499682],
+       [-0.24446675,  0.03596771,  0.08762859],
+       [-0.18546283, -0.06439977,  0.04710842],
+       [-0.12624761, -0.06752899,  0.00889326],
+       [-0.24731305,  0.01722282,  0.0783113 ],
+       [-0.18969533, -0.01186775,  0.02981169],
+       [-0.1857186 , -0.05438815,  0.1308462 ],
+       [-0.2628894 , -0.01201279,  0.0832541 ],
+       [-0.27133894,  0.03722165,  0.1282365 ],
+       [-0.22621402,  0.02283195,  0.00233256],
+       [-0.30082232, -0.02635555,  0.07403436],
+       [-0.30856255,  0.02321944,  0.1130316 ],
+       [-0.12960233, -0.00270384,  0.08667727],
+       [-0.19838808, -0.12226443,  0.10114035],
+       [-0.25130552,  0.06412794, -0.11395147],
+       [-0.2980311 , -0.06281038,  0.10891645],
+       [-0.24406087,  0.01663445,  0.0854383 ],
+       [-0.30612168, -0.04519241,  0.0976363 ],
+       [-0.2220126 , -0.03730389,  0.05724911],
+       [-0.23135108,  0.00517534,  0.13024725],
+       [-0.23423377, -0.01350754,  0.11488776],
+       [-0.22253582, -0.03070387,  0.13063261],
+       [-0.18301676,  0.02651798,  0.12157252],
+       [-0.28308457, -0.06614831,  0.10899014],
+       [-0.22083524,  0.01778758,  0.10524873],
+       [-0.13900892, -0.12337402,  0.14366676],
+       [-0.16907875, -0.08808263, -0.07928374],
+       [-0.24352653, -0.04163332,  0.1690184 ],
+       [-0.29071265, -0.01530489,  0.13030191],
+       [-0.19133931,  0.02996003,  0.14191908],
+       [-0.25121003,  0.01546764,  0.11380497],
+       [-0.18933628, -0.00320712,  0.09715776],
+       [-0.09016345, -0.08375978,  0.04361553],
+       [-0.23231587, -0.02690834,  0.07974535],
+       [-0.22609076, -0.06706372,  0.08346825],
+       [-0.21835597,  0.02992781,  0.05411157],
+       [-0.23123346,  0.04389651,  0.05145737],
+       [-0.21973032, -0.06734848, -0.01922838],
+       [-0.24918793, -0.02955698,  0.07608018],
+       [-0.22106263, -0.04268681,  0.14686239],
+       [-0.1806384 ,  0.02459293,  0.00360023],
+       [-0.30092454,  0.03027179,  0.1433111 ],
+       [-0.24179867, -0.06515618,  0.04117276],
+       [-0.17106709, -0.00804164,  0.01489383],
+       [-0.28091773, -0.03684182,  0.11571813],
+       [-0.23255908, -0.00732972,  0.05694393],
+       [-0.22903338, -0.03849001,  0.08487871],
+       [-0.29067552,  0.04171339,  0.02041837],
+       [-0.27090636,  0.01274091,  0.11717661],
+       [-0.1786249 ,  0.02429736,  0.09277377],
+       [-0.26841035, -0.04804546,  0.16031422],
+       [-0.24686998, -0.03441573,  0.12597972],
+       [-0.21164426,  0.01549724,  0.1933034 ],
+       [-0.12799323, -0.06325218,  0.0215142 ],
+       [-0.2421326 , -0.04539567,  0.12021208],
+       [-0.23650756,  0.00332527,  0.0222483 ],
+       [-0.1994233 ,  0.02394098,  0.06666607],
+       [-0.23736101,  0.02423458,  0.10194872],
+       [ 0.0414736 ,  0.116332  ,  0.10602035],
+       [-0.20810553, -0.08474756,  0.05372816],
+       [-0.2647989 , -0.05654946,  0.11409075],
+       [-0.2478983 , -0.03329397,  0.14639752],
+       [-0.27798507, -0.02754659,  0.08983144],
+       [-0.251377  , -0.01547552,  0.11638057],
+       [-0.27908152, -0.00275683,  0.11572135],
+       [-0.20367715, -0.03119193,  0.14484096]], dtype=float32), 0         intron
+1     intergenic
+2         intron
+3         intron
+4         intron
+         ...
+95          exon
+96        intron
+97    intergenic
+98          exon
+99          exon
+Name: type, Length: 100, dtype: object]
+loading configuration file /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_/config.json
+Model config RobertaConfig {
+  "adapters": {
+    "adapters": {},
+    "config_map": {},
+    "fusion_config_map": {},
+    "fusions": {}
+  },
+  "architectures": [
+    "RobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 6,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.11.3",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 5000
+}
+loading weights file /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_/pytorch_model.bin
+Some weights of the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_ were not used when initializing RobertaModelWithHeads: ['lm_head.layer_norm.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.dense.bias']
+- This IS expected if you are initializing RobertaModelWithHeads from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModelWithHeads from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModelWithHeads were not initialized from the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_ and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Adding adapter '3x3_fold_0'.
+Adding head '3x3_fold_0' with config {'head_type': 'classification', 'num_labels': 3, 'layers': 2, 'activation_function': 'tanh', 'label2id': {'exon': 0, 'intergenic': 1, 'intron': 2}, 'use_pooler': False, 'bias': True}.
+PyTorch: setting up devices
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 48
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '

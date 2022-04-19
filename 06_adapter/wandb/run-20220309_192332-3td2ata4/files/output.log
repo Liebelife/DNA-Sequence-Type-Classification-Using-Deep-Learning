@@ -1,0 +1,71 @@
+total_optimization_steps: 2215
+how many 'eval_steps' to set: 222
+how many steps in each evaluation stop: 16
+hence in total: 3552 steps for the whole evaluation
+Some weights of the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4 were not used when initializing RobertaModelWithHeads: ['lm_head.dense.weight', 'lm_head.bias', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaModelWithHeads from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModelWithHeads from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModelWithHeads were not initialized from the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_params_4 and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+***** Running training *****
+  Num examples = 85000
+  Num Epochs = 5
+  Instantaneous batch size per device = 64
+  Total train batch size (w. parallel, distributed & accumulation) = 192
+  Gradient Accumulation steps = 1
+  Total optimization steps = 2215
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 192
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 192
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 192
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 192
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 192
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 192
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 192
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 192
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 192
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running Prediction *****
+  Num examples = 15000
+  Batch size = 192
+***** Running Evaluation *****
+  Num examples = 15000
+  Batch size = 192
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'acc': 0.5604666666666667, 'f1_weighted': 0.5616129489579086, 'report':               precision    recall  f1-score       support
+0              0.739928  0.657780  0.696440   5026.000000
+1              0.453559  0.418084  0.435099   4999.000000
+2              0.508271  0.605226  0.552528   4975.000000
+accuracy       0.560467  0.560467  0.560467      0.560467
+macro avg      0.567253  0.560363  0.561356  15000.000000
+weighted avg   0.567658  0.560467  0.561613  15000.000000} {'eval_runtime': 28.7225, 'eval_samples_per_second': 522.239, 'eval_steps_per_second': 2.75, 'epoch': 5.0}
+Saving model checkpoint to adapter_optimize
+Configuration saved in adapter_optimize/adapter_batchsize_64/adapter_config.json
+Module weights saved in adapter_optimize/adapter_batchsize_64/pytorch_adapter.bin
+Configuration saved in adapter_optimize/adapter_batchsize_64/head_config.json
+Module weights saved in adapter_optimize/adapter_batchsize_64/pytorch_model_head.bin
+Configuration saved in adapter_optimize/adapter_batchsize_64/head_config.json
+Module weights saved in adapter_optimize/adapter_batchsize_64/pytorch_model_head.bin
+Configuration saved in adapter_optimize/adapter_batchsize_64/head_config.json
+Module weights saved in adapter_optimize/adapter_batchsize_64/pytorch_model_head.bin

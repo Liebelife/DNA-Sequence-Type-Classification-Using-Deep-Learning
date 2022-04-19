@@ -1,0 +1,19 @@
+{
+  "config": {
+    "activation_function": "tanh",
+    "bias": true,
+    "head_type": "classification",
+    "label2id": {
+      "exon": 0,
+      "other": 1
+    },
+    "layers": 2,
+    "num_labels": 2,
+    "use_pooler": false
+  },
+  "hidden_size": 768,
+  "model_class": "RobertaModelWithHeads",
+  "model_name": null,
+  "model_type": "roberta",
+  "name": "2x2_fold_5"
+}

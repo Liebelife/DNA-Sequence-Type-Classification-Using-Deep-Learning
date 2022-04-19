@@ -1,0 +1,84 @@
+total_optimization_steps: 23440
+how many 'eval_steps' to set: 2344
+how many steps in each evaluation stop: 104
+hence in total: 243776 steps for the whole evaluation
+Some weights of the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_ were not used when initializing RobertaModelWithHeads: ['lm_head.bias', 'lm_head.layer_norm.weight', 'lm_head.dense.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.bias']
+- This IS expected if you are initializing RobertaModelWithHeads from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModelWithHeads from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModelWithHeads were not initialized from the model checkpoint at /home/lieberze/DP/Thesis/05_model_training/roberta-trained-new-tokenizer_ and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+***** Running training *****
+  Num examples = 225000
+  Num Epochs = 5
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 48
+  Gradient Accumulation steps = 1
+  Total optimization steps = 23440
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Traceback (most recent call last):
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-6-59ecd8504b1b>", line 70, in <module>
+    trainer.train()
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/transformers/trainer.py", line 1265, in train
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 561, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "<ipython-input-4-a9f11a9ecb0a>", line 15, in __getitem__
+    tokenized = tokenizer(seq, max_length=128, padding="max_length", truncation=True)
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/transformers/tokenization_utils_base.py", line 2441, in __call__
+    **kwargs,
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/transformers/tokenization_utils_base.py", line 2511, in encode_plus
+    **kwargs,
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/transformers/tokenization_utils.py", line 606, in _encode_plus
+    first_ids = get_input_ids(text)
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/transformers/tokenization_utils.py", line 575, in get_input_ids
+    tokens = self.tokenize(text, **kwargs)
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/transformers/tokenization_utils.py", line 506, in tokenize
+    tokenized_text.extend(self._tokenize(token))
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/transformers/models/gpt2/tokenization_gpt2.py", line 251, in _tokenize
+    bpe_tokens.extend(bpe_token for bpe_token in self.bpe(token).split(" "))
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/transformers/models/gpt2/tokenization_gpt2.py", line 212, in bpe
+    bigram = min(pairs, key=lambda pair: self.bpe_ranks.get(pair, float("inf")))
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/transformers/models/gpt2/tokenization_gpt2.py", line 212, in <lambda>
+    bigram = min(pairs, key=lambda pair: self.bpe_ranks.get(pair, float("inf")))
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2044, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/IPython/core/ultratb.py", line 1169, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/IPython/core/ultratb.py", line 316, in wrapped
+    return f(*args, **kwargs)
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/site-packages/IPython/core/ultratb.py", line 350, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/inspect.py", line 1490, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/inspect.py", line 1448, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/inspect.py", line 739, in getmodule
+    f = getabsfile(module)
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/inspect.py", line 708, in getabsfile
+    _filename = getsourcefile(object) or getfile(object)
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/inspect.py", line 693, in getsourcefile
+    if os.path.exists(filename):
+  File "/home/lieberze/.conda/envs/dp/lib/python3.6/genericpath.py", line 19, in exists
+    os.stat(path)
+KeyboardInterrupt
+ERROR:root:Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+Error in callback <function _WandbInit._resume_backend at 0x7f2dcc9faf28> (for pre_run_cell):
