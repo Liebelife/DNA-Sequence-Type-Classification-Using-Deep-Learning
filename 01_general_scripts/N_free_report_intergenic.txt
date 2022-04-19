@@ -1,0 +1,22 @@
+INTERGENIC SEQUENCES:
+Bos taurus
+smazano 104599 sekvenci, celkem 73.25116425645156 %
+Canis lupus familiaris
+smazano 133733 sekvenci, celkem 73.77436242573356 %
+Equus caballus
+smazano 96735 sekvenci, celkem 73.26521956465758 %
+Felis catus
+smazano 87324 sekvenci, celkem 68.87674214997278 %
+Monodelphis domestica
+smazano 88621 sekvenci, celkem 77.16104203670811 %
+Mus musculus
+smazano 174467 sekvenci, celkem 76.89564895455027 %
+Ornitohoryhynchus anatinus
+smazano 47229 sekvenci, celkem 59.36946110042614 %
+Ovis aries
+smazano 78576 sekvenci, celkem 68.23854310502045 %
+Rattus norvegicus
+smazano 145499 sekvenci, celkem 75.4968296302446 %
+Sus scrofa
+smazano 99407 sekvenci, celkem 75.65854066931021 %
+

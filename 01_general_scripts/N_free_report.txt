@@ -1,0 +1,20 @@
+Bos_taurus
+smazano 226 sekvenci, celkem 0.012952365669353615 %
+Canis_lupus_familiaris
+smazano 519 sekvenci, celkem 0.025803321021652417 %
+Equus_caballus
+smazano 4372 sekvenci, celkem 0.24455922841899058 %
+Felis_catus
+smazano 241 sekvenci, celkem 0.01573627825918891 %
+Monodelphis_domestica
+smazano 50118 sekvenci, celkem 4.068296864396599 %
+Mus_musculus
+smazano 219 sekvenci, celkem 0.007506419016535716 %
+Ornitohoryhynchus_anatinus
+smazano 153 sekvenci, celkem 0.014275357653691019 %
+Ovis_aries
+smazano 68 sekvenci, celkem 0.004107061427747427 %
+Rattus_norvegicus
+smazano 195 sekvenci, celkem 0.008858671480938184 %
+Sus_scrofa
+smazano 124 sekvenci, celkem 0.006789579965920689 %

@@ -1,0 +1,30 @@
+Bos_taurus
+pocet exonu obsahujicich N: 0 (0.0 %)
+pocet intronu obsahujicich N: 226 (0.02718541899226298 %)
+Canis_lupus_familiaris
+pocet exonu obsahujicich N: 0 (0.0 %)
+pocet intronu obsahujicich N: 519 (0.0544334412213228 %)
+Equus_caballus
+pocet exonu obsahujicich N: 20 (0.0021428096949281834 %)
+pocet intronu obsahujicich N: 4352 (0.5093919134033748 %)
+Felis_catus
+pocet exonu obsahujicich N: 0 (0.0 %)
+pocet intronu obsahujicich N: 241 (0.033113947704695036 %)
+Monodelphis_domestica
+pocet exonu obsahujicich N: 93 (0.014279857569936754 %)
+pocet intronu obsahujicich N: 50025 (8.615359709566365 %)
+Mus_musculus
+pocet exonu obsahujicich N: 0 (0.0 %)
+pocet intronu obsahujicich N: 214 (0.015403196667151316 %)
+Ornitohoryhynchus_anatinus
+pocet exonu obsahujicich N: 0 (0.0 %)
+pocet intronu obsahujicich N: 153 (0.030014536451967912 %)
+Ovis_aries
+pocet exonu obsahujicich N: 0 (0.0 %)
+pocet intronu obsahujicich N: 68 (0.008612697142104437 %)
+Rattus_norvegicus
+pocet exonu obsahujicich N: 0 (0.0 %)
+pocet intronu obsahujicich N: 194 (0.01852930782528964 %)
+Sus_scrofa
+pocet exonu obsahujicich N: 1 (0.00010498401093513459 %)
+pocet intronu obsahujicich N: 123 (0.01407641548085264 %)
